@@ -2,21 +2,21 @@
 description: Todas as atualizações (adições, exclusões e correções) no Guia do Administrador do Audience Manager, por data.
 seo-description: All updates (additions, deletions, and corrections) to the Audience Manager Admin Guide, by date.
 seo-title: Documentation Updates
-title: Atualizações de documentação de
+title: Atualizações de documentação
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
 exl-id: 8221b4df-99c2-47d3-a2ea-186a701a2b20
 source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '583'
 ht-degree: 94%
 
 ---
 
-# Atualizações de documentação de {#documentation-updates}
+# Atualizações de documentação {#documentation-updates}
 
 Todas as atualizações (adições, exclusões e correções) no Guia do Administrador do Audience Manager, por data.
 
-Para obter informações sobre lançamentos de recursos, melhorias e correções de erros, consulte as [Notas de versão da Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en). Para [!DNL Audience Manager] alterações na documentação, consulte [Atualizações de documentação](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en).
+Para obter informações sobre lançamentos de recursos, melhorias e correções de erros, consulte as [Notas de versão da Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en). Para [!DNL Audience Manager] alterações na documentação, consulte [Atualizações na Documentação](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en).
 
 ## Atualizações de documentação do AAM 2019 {#aam-2019-docs-updates}
 

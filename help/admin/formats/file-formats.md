@@ -7,14 +7,14 @@ uuid: f91c91b6-6581-4ed7-8d7f-f8532bd41df9
 exl-id: e686bc33-da3e-49a9-8c71-2bc6ca399bfb
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 2%
+source-wordcount: '682'
+ht-degree: 1%
 
 ---
 
 # Macros de formato de arquivo {#file-format-macros}
 
-Lista as macros que você pode usar para criar [!DNL FTP]arquivos de dados baseados em. Algumas macros podem ser usadas para todos os campos e linhas do arquivo de dados. Outras macros são específicas apenas para linhas de cabeçalho e dados.
+Lista as macros que você pode usar para criar arquivos de dados baseados em [!DNL FTP]. Algumas macros podem ser usadas para todos os campos e linhas do arquivo de dados. Outras macros são específicas apenas para linhas de cabeçalho e dados.
 
 ## Macros comuns {#common-macros}
 
@@ -46,14 +46,14 @@ Essas macros podem ser usadas em qualquer campo de formato. Para obter exemplos,
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>PIDALIAS</code> </p> </td> 
-   <td colname="col2"> <p>Um alias para uma ID de pedido/destino. </p> <p>O valor desse alias é definido na variável <span class="wintitle"> ID da Conta Estrangeira </span> para um destino (na variável <span class="wintitle"> Configurações básicas </span> seção). </p> </td> 
+   <td colname="col2"> <p>Um alias para uma ID de pedido/destino. </p> <p>O valor deste alias está definido no campo <span class="wintitle"> ID da Conta Estrangeira </span> para um destino (na seção <span class="wintitle"> Configurações Básicas </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>SYNC_MODE</code> </p> </td> 
    <td colname="col2"> <p>Indica o tipo de sincronização. Aceita as seguintes variáveis opcionais: </p> 
     <ul id="ul_87E8E3CE6565447A9810B5119298CC7B"> 
      <li id="li_66F4889FB84E40AC92F69F3FF6B0042C"> <code>full</code>: Sincronização completa. </li> 
-     <li id="li_BFE2C2D9A33A44FB9A840A7232ECCFFF"> <code>iter</code>: sincronização incremental. </li> 
+     <li id="li_BFE2C2D9A33A44FB9A840A7232ECCFFF"> <code>iter</code>: Sincronização incremental. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ Essas macros podem ser usadas em qualquer campo de formato. Para obter exemplos,
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>TIMESTAMP</code> </p> </td> 
-   <td colname="col2"> <p>Um carimbo de data e hora de 10 dígitos, UTC e Unix. </p> <p>Também pode ser formatado como <code>YYYYMMDDhhmmss</code> seguindo as regras de formatação de data/hora do Java. </p> </td> 
+   <td colname="col2"> <p>Um carimbo de data e hora de 10 dígitos, UTC e Unix. </p> <p>Ele também pode ser formatado como <code>YYYYMMDDhhmmss</code> seguindo as regras de formatação de data/carimbo de data/hora Java. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -105,7 +105,7 @@ Macros usadas somente em linhas de dados. Para obter exemplos, consulte [Exemplo
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>CLOSE_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Insere uma chave fechada <code>}</code> caractere. </p> </td> 
+   <td colname="col2"> <p>Insere uma chave fechada com <code>}</code> caractere. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>COMMA</code> </p> </td> 
@@ -113,27 +113,27 @@ Macros usadas somente em linhas de dados. Para obter exemplos, consulte [Exemplo
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="term"> Identificador de usuário exclusivo do parceiro de dados </span>. Retorna a ID atribuída a um visitante do usuário/site se essa ID já tiver sido sincronizada com uma <span class="keyword"> Audience Manager </span> ID do dispositivo. </p> <p>Se a DPID for 0, essa macro retornará a variável <span class="keyword"> Audience Manager </span> ID em vez da ID do usuário. </p> </td> 
+   <td colname="col2"> <p> Identificador De Usuário Exclusivo </span> Do Parceiro De Dados <span class="term">. Retorna a ID que você atribuiu a um visitante do usuário/site se essa ID já tiver sido sincronizada com uma ID de dispositivo <span class="keyword"> Audience Manager </span>. </p> <p>Se a DPID for 0, essa macro retornará a ID do Audience Manager </span> do <span class="keyword"> em vez da ID do usuário. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID_LIST</code> </p> </td> 
-   <td colname="col2"> <p>Retorna uma lista que contém várias IDs para um parceiro de dados. Isso é útil se você tiver uma grande organização com várias subdivisões ou outros grupos organizacionais com os quais poderá compartilhar dados. Esta macro retorna uma lista de IDs para esses grupos secundários. </p> </td> 
+   <td colname="col2"> <p>Retorna uma lista que contém várias IDs para um parceiro de dados. Isso é útil se você tiver uma grande organização com várias subdivisões ou outros grupos organizacionais com os quais poderá compartilhar dados. Esta macro retorna uma lista de IDs para esses grupos subordinados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPUUIDS</code> </p> </td> 
-   <td colname="col2"> <p>A saída dessa macro mapeia a ID do provedor de dados (DPID) para IDs de usuário exclusivas relacionadas (DPUUID). Esta macro deve ter uma sequência de formatação para controlar sua saída. O exemplo de saída seria semelhante ao seguinte: </p> <p> <code>"dpids=dpid1,dpid2,...dpid n|maxMappings= n|format=json"</code> </p> <p>A variável <code>maxMappings</code> determina quantos mapeamentos você deseja que a macro retorne. Quando <code>maxMappings=0</code>, essa macro retorna todos os mapeamentos para cada DPID especificado. Os dados são classificados por carimbo de data e hora (o mais recente primeiro) e retornam os resultados com o maior carimbo de data e hora primeiro. </p> </td> 
+   <td colname="col2"> <p>A saída dessa macro mapeia a ID do provedor de dados (DPID) para IDs de usuário exclusivas relacionadas (DPUUID). Esta macro deve ter uma sequência de formatação para controlar sua saída. O exemplo de saída seria semelhante ao seguinte: </p> <p> <code>"dpids=dpid1,dpid2,...dpid n|maxMappings= n|format=json"</code> </p> <p>A configuração <code>maxMappings</code> determina quantos mapeamentos a macro deverá retornar. Quando <code>maxMappings=0</code>, esta macro retorna todos os mapeamentos para cada DPID especificado. Os dados são classificados por carimbo de data e hora (o mais recente primeiro) e retornam os resultados com o maior carimbo de data e hora primeiro. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>endif</code> </p> </td> 
-   <td colname="col2"> <p>Obrigatório ao usar o condicional <code>if</code> e a variável <code>SEGMENT_LIST</code> e <code>REMOVED_SEGMENT_LIST</code> macros. </p> </td> 
+   <td colname="col2"> <p>Necessário ao usar as macros condicionais <code>if</code> e <code>SEGMENT_LIST</code> e <code>REMOVED_SEGMENT_LIST</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)endif</code> </p> </td> 
-   <td colname="col2"> <p>Essa combinação de macros cria uma declaração condicional que lista os segmentos aos quais os usuários pertencem <i>e</i> foram removidas de. Ele retorna uma string vazia se ambas as condições não forem atendidas ou se não houver dados. </p> </td> 
+   <td colname="col2"> <p>Esta combinação de macros cria uma declaração condicional que lista os segmentos dos quais os usuários pertencem a <i>e</i> foram removidos. Ele retorna uma string vazia se ambas as condições não forem atendidas ou se não houver dados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>MCID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Adobe Experience Cloud ID.</span> </p> </td> 
+   <td colname="col2"> <p> ID </span> do Adobe Experience Cloud <span class="keyword">. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPEN_CURLY_BRACKET</code> </p> </td> 
@@ -149,11 +149,11 @@ Macros usadas somente em linhas de dados. Para obter exemplos, consulte [Exemplo
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OUTPUT_ATTRIBUTE_VALUE</code> </p> </td> 
-   <td colname="col2"> <p>Devoluções <code>1</code> como um valor estático codificado. </p> </td> 
+   <td colname="col2"> <p>Retorna <code>1</code> como um valor estático codificado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>PID</code> </p> </td> 
-   <td colname="col2"> <p>ID de parceiro (PID). O PID aparece abaixo de <span class="wintitle"> Perfil </span> na interface do usuário do administrador. </p> </td> 
+   <td colname="col2"> <p>ID de parceiro (PID). O PID aparece na guia <span class="wintitle"> Perfil </span> da interface do administrador. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
@@ -163,17 +163,17 @@ Macros usadas somente em linhas de dados. Para obter exemplos, consulte [Exemplo
    <td colname="col1"> <p> <code>SEGMENT_LIST</code> </p> </td> 
    <td colname="col2"> <p>Retorna uma lista de segmentos em uma lista. Aceita as seguintes variáveis opcionais: </p> 
     <ul id="ul_B111AA0D6C18445598A1444B8B7E9325"> 
-     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code>segmentId</code>: ID herdada. Obsoleto. Uso <code>sid</code> (somente minúsculas). </li> 
-     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code>csegid</code>: ID herdada. Obsoleto. Uso <code>sid</code> (somente minúsculas). </li> 
+     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code>segmentId</code>: ID herdada. Obsoleto. Usar <code>sid</code> (somente minúsculas). </li> 
+     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code>csegid</code>: ID herdada. Obsoleto. Usar <code>sid</code> (somente minúsculas). </li> 
      <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code>sid</code>: ID do segmento. </li> 
-     <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code>type</code>: Devoluções <code>5</code>- um valor estático codificado que identifica dados como dados de segmento. </li> 
-     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code>alias</code>: Mapeamento do segmento. Obsoleto. Uso <code>sid</code> (somente minúsculas). </li> 
-     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code>lastUpdateTime</code>: um carimbo de data e hora Unix que indica a última vez que um segmento foi realizado. </li> 
+     <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code>type</code>: Retorna <code>5</code>, um valor estático codificado que identifica dados como dados de segmento. </li> 
+     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code>alias</code>: Mapeamento do segmento. Obsoleto. Usar <code>sid</code> (somente minúsculas). </li> 
+     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code>lastUpdateTime</code>: um carimbo de data/hora Unix que indica a última vez que um segmento foi realizado. </li> 
     </ul> <p>Coloque essas variáveis entre chaves após a macro. Por exemplo, este código separa os resultados com um caractere de barra vertical "|": <code>&lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator="|"&gt;</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>SET_ATTRIBUTES</code> </p> </td> 
-   <td colname="col2"> <p>Devoluções <code>1</code> como um valor estático codificado. </p> </td> 
+   <td colname="col2"> <p>Retorna <code>1</code> como um valor estático codificado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>TAB</code> </p> </td> 
@@ -186,7 +186,7 @@ Macros usadas somente em linhas de dados. Para obter exemplos, consulte [Exemplo
      <li id="li_859E1F4F21D645519F150DC512B3EB1A"> <code>type</code>: Tipos de características identificados por uma ID numérica. Essa variável retorna: 
       <ul id="ul_C9839266783D42CCADAAC3FEA33BE4D7"> 
        <li id="li_6996A218E3F04EC3BC70032559DD87FC"> <code>10</code> que identifica uma característica do DPM (offline, integrado por um trabalho de entrada). </li> 
-       <li id="li_831FF929BF50434C8804C13E5786DF79"> <code>3</code> que identifica uma característica baseada em regras (tempo real, integração por meio do <span class="wintitle"> DCS </span>). </li> 
+       <li id="li_831FF929BF50434C8804C13E5786DF79"> <code>3</code> que identifica uma característica baseada em regras (em tempo real; integrado por meio do <span class="wintitle"> DCS </span>). </li> 
       </ul> </li> 
      <li id="li_E84D6BC80AEE4F10963C9882C4151ED4"> <code>traitId</code>: ID da característica. </li> 
      <li id="li_D30A849BA35248E6B9110FA3ADEFC332"> <code>lastRealized</code>: Última vez que a característica foi realizada. Carimbo de data e hora Unix. </li> 

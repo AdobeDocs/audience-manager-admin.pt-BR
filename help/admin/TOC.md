@@ -7,7 +7,7 @@ user-guide-description: A ferramenta Administrador do Audience Manager permite a
 source-git-commit: 25a00b3e877eab3136e70e924d87d011f44ba52c
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 96%
+ht-degree: 28%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 96%
 # Guia do Administrador do Audience Manager {#admin-guide}
 
 + [Página inicial do Administrador do Audience Manager](admin-home.md)
-+ [Faça logon no Administrador do Audience Manager](admin-login.md)
++ [Faça logon no Audience Manager Admin](admin-login.md)
 + [Como solicitar acesso administrativo funcional](admin-access.md)
 + Empresas {#companies}
    + [Empresas](companies/admin-companies-overview.md)
    + [Criar um perfil de empresa](companies/admin-manage-company-profiles.md)
-   + [Gerenciar containers](companies/admin-manage-containers.md)
+   + [Gerenciar contêineres](companies/admin-manage-containers.md)
    + [Opções de gráfico de dispositivo para empresas](companies/admin-device-graph-options.md)
    + [Sincronização de ID com o Media Otimizer](companies/admin-amo-sync.md)
    + [Gerenciar provedores de dados próprios](companies/admin-first-party-providers.md)
@@ -38,11 +38,11 @@ ht-degree: 96%
    + [Autorizar acesso ao bucket do Amazon S3 entre contas](admin-servers/admin-authorize-s3-cross-bucket.md)
    + [Excluir um servidor](admin-servers/admin-delete-server.md)
 + Relatório {#reporting}
-   + [Relatório](admin-reporting/admin-reporting-overview.md)
-   + [Atribuir um portal ao usuário do Tableau](admin-reporting/admin-assign-tableau-user.md)
+   + [Relatórios](admin-reporting/admin-reporting-overview.md)
+   + [Atribuir um usuário do portal ao usuário do Tableau](admin-reporting/admin-assign-tableau-user.md)
 + Formatos {#formats}
-   + [Visão geral dos formatos](formats/formats.md)
-   + [Ativar transferências de arquivos de sequência do Hadoop para saída](formats/enable-outbound-seq.md)
+   + [Visão geral de formatos](formats/formats.md)
+   + [Ativar transferências de arquivos de sequência de Hadoops para saída](formats/enable-outbound-seq.md)
    + [Macros de formato de arquivo](formats/file-formats.md)
    + [Exemplos de macro de formato de arquivo](formats/file-format-examples.md)
    + [Macros de formato HTTP](formats/web-formats.md)
@@ -50,9 +50,9 @@ ht-degree: 96%
    + [Criar ou editar um formato](formats/admin-create-format.md)
 + Clientes OAuth2 {#oath2-clients}
    + [Clientes OAuth2](admin-oauth2/admin-oauth2-create-edit.md)
-   + [Requisitos da API e recomendações](admin-oauth2/aam-admin-api-requirements.md)
+   + [Requisitos da API e Recommendations](admin-oauth2/aam-admin-api-requirements.md)
 + [Logs de auditoria](admin-audit-logging.md)
 + [Meu perfil](admin-my-profile.md)
 + [Solução de problemas de configuração de destino](admin-destination-troubleshooting.md)
-+ [Ambiente beta](admin-beta-environment.md)
-+ [Atualizações de documentação de](admin-doc-updates.md)
++ [Ambiente do Beta](admin-beta-environment.md)
++ [Atualizações de documentação](admin-doc-updates.md)

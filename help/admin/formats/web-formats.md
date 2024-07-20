@@ -7,16 +7,16 @@ uuid: 91021f60-75d0-4b1d-86ca-91c9dadafac1
 exl-id: 80ed24ac-1b84-4c1b-966f-039b587ea899
 source-git-commit: cfc3396843592d80b017471a0e88cf335a5f81e0
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '376'
 ht-degree: 2%
 
 ---
 
 # Macros de formato HTTP {#http-format-macros}
 
-Lista as macros que você pode usar para criar [!DNL HTTP] arquivos de dados. [!DNL HTTP] envia dados em um [!DNL JSON] formato.
+Lista as macros que você pode usar para criar arquivos de dados do [!DNL HTTP]. [!DNL HTTP] envia dados em um formato [!DNL JSON].
 
-Consulte a [Exemplos de macro de formato HTTP](../formats/web-format-examples.md) para obter uma lista e exemplos de algumas combinações de macro usadas com frequência.
+Consulte os [Exemplos de Macro de Formato HTTP](../formats/web-format-examples.md) para obter uma lista e exemplos de algumas combinações de macro usadas com frequência.
 
 <table id="table_72A72EA63C3643FB84B47A76CD2CC1CA"> 
  <thead> 
@@ -30,12 +30,12 @@ Consulte a [Exemplos de macro de formato HTTP](../formats/web-format-examples.md
   <tr> 
    <td colname="col1"> <p> <code>AAM_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p> <span class="keyword"> Audience Manager </span> ID. </p> </td> 
+   <td colname="col3"> <p> ID DO Audience Manager </span> <span class="keyword">. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>ID de usuário exclusiva do parceiro de dados. Essa macro retorna a ID atribuída a um usuário se a ID dele já tiver sido sincronizada com uma <span class="keyword"> Audience Manager </span> ID do dispositivo. </p> </td> 
+   <td colname="col3"> <p>ID de usuário exclusiva do parceiro de dados. Essa macro retorna a ID atribuída a um usuário se a ID dele já tiver sido sincronizada com uma ID de dispositivo <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
@@ -50,7 +50,7 @@ Consulte a [Exemplos de macro de formato HTTP](../formats/web-format-examples.md
   <tr> 
    <td colname="col1"> <p> <code>GENERATION_TIME</code> </p> </td> 
    <td colname="col2"> <p> <code>GET, POST</code> </p> </td> 
-   <td colname="col3"> <p>Carimbo de data e hora Unix UTC. Um carimbo de data e hora interno, representa a hora em que o AAM foi notificado para publicar a <span class="wintitle"> S2S </span> destino para nossos parceiros. </p> </td> 
+   <td colname="col3"> <p>Carimbo de data e hora Unix UTC. Um carimbo de data/hora interno, que representa a hora em que o AAM foi notificado a publicar o destino </span> do S2S <span class="wintitle"> para nossos parceiros. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>IP</code> </p> </td> 
@@ -90,7 +90,7 @@ Consulte a [Exemplos de macro de formato HTTP](../formats/web-format-examples.md
   <tr> 
    <td colname="col1"> <p> <code>REGION_ID_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>A variável <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=en"> Região do DCS do Audience Manager </a> onde a atividade se originou.</p> </td> 
+   <td colname="col3"> <p>A região </a> do DCS Audience Manager <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=en"> de onde a atividade se originou.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
@@ -173,7 +173,8 @@ Consulte a [Exemplos de macro de formato HTTP](../formats/web-format-examples.md
      <li><code>user.regionIds</code></li> 
     </ul> <p>Especifique esses campos conforme mostrado neste exemplo: </p> <p> 
      <codeblock>
-       "AAM_UUID": "&lt;user.aamuuid&gt;" "DataPartner_UUID": "&lt;user.dpuuid&gt;" 
+       "AAM_UUID": "&lt;user.aamUuid&gt;" 
+"DataPartner_UUID": "&lt;user.dpUuid&gt;" 
      </codeblock> </p> <p>Consulte também <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> Exemplos de macro de formato HTTP </a> para obter um exemplo completo. </p> </td> 
   </tr>
  </tbody>

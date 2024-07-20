@@ -8,15 +8,15 @@ exl-id: 1f8ccbf3-241d-4bd9-8c35-cf68b12d2713
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '66'
-ht-degree: 12%
+ht-degree: 0%
 
 ---
 
 # Exemplos de macro de formato HTTP {#http-format-macro-examples}
 
-Exemplos de alguns [!DNL HTTP] combinações de macro.
+Exemplos de algumas combinações de macro [!DNL HTTP] usadas com frequência.
 
-Consulte a [Macros de formato HTTP](../formats/web-formats.md) para obter uma lista de macros e suas definições.
+Consulte as [Macros de Formato HTTP](../formats/web-formats.md) para obter uma lista de macros e suas definições.
 
 <table id="table_D5FAC5D056ED49D79FA883197EF8F42E"> 
  <thead> 
@@ -137,7 +137,7 @@ Consulte a [Macros de formato HTTP](../formats/web-formats.md) para obter uma li
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>&lt;if(user.segments &amp;&amp; user.removedSegments)&gt;&lt;COMMA&gt;&lt;endif&gt;</code> </p> </td> 
-   <td colname="col2"> <p>Imprime uma vírgula se os campos <code>segments</code> e <code>removedSegments</code> não estão vazias. Essa condicional pode ser usada para solicitações POST ao concatenar listas para segmentos e segmentos removidos. </p> </td> 
+   <td colname="col2"> <p>Imprime uma vírgula se os campos <code>segments</code> e <code>removedSegments</code> não estiverem vazios. Essa condicional pode ser usada para solicitações POST ao concatenar listas para segmentos e segmentos removidos. </p> </td> 
   </tr> 
  </tbody> 
 </table>

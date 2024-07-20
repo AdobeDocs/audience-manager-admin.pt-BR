@@ -14,10 +14,10 @@ ht-degree: 1%
 
 # Empresas {#companies}
 
-Use o [!UICONTROL Companies] para exibir uma lista de empresas na sua configuração de Audience Manager. É possível editar ou excluir empresas existentes ou criar novas empresas, desde que você tenha as funções de usuário apropriadas atribuídas.
+Use a página [!UICONTROL Companies] para exibir uma lista de empresas na sua configuração de Audience Manager. É possível editar ou excluir empresas existentes ou criar novas empresas, desde que você tenha as funções de usuário apropriadas atribuídas.
 
 ![](assets/companies.png)
 
 Você pode classificar cada coluna em ordem crescente ou decrescente clicando no cabeçalho da coluna desejada.
 
-Use o [!UICONTROL Search] ou nos controles de paginação na parte inferior da lista para localizar a empresa desejada.
+Use a caixa [!UICONTROL Search] ou os controles de paginação na parte inferior da lista para encontrar a empresa desejada.

@@ -8,7 +8,7 @@ exl-id: d213f734-af52-4f43-8733-af67ce6f4e98
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ Edite os detalhes do perfil da ferramenta de administração do Audience Manager
 
 ## Editar perfil {#edit-profile}
 
-Visualize e edite seu perfil da ferramenta do administrador do Audience Manager, incluindo nome e sobrenome, nome de usuário, endereço de email, número de telefone, [!UICONTROL IMS ID], funções de usuário e status.
+Exiba e edite seu perfil da ferramenta do Administrador do Audience Manager, incluindo nome e sobrenome, nome de usuário, endereço de email, número de telefone, [!UICONTROL IMS ID], funções de usuário e status.
 
 <!-- t_edit_profile.xml -->
 
@@ -34,20 +34,20 @@ Visualize e edite seu perfil da ferramenta do administrador do Audience Manager,
    * **[!UICONTROL Username]:** (Obrigatório) Especifique seu primeiro nome de usuário.
    * **[!UICONTROL Email Address]:** (Obrigatório) Especifique seu endereço de email.
    * **[!UICONTROL Phone Number]:** Especifique seu número de telefone.
-   * **[!UICONTROL IMS ID]:** Especifique a ID do serviço de mensagens da Internet.
+   * **[!UICONTROL IMS ID]:** Especifique sua ID do Serviço de Mensagens na Internet.
    * **[!UICONTROL User Roles]:** Selecione as funções de usuário desejadas:
-      * **[!UICONTROL DEXADMIN]:** Fornece acesso de administrador para executar tarefas na ferramenta Audience Manager Admin. Se você não selecionar essa opção, poderá escolher funções individuais. Essas funções permitem que os usuários executem tarefas usando [!DNL API] chamadas, mas não na Ferramenta de administração.
-      * **[!UICONTROL CREATE_USERS]:** Permite que os usuários criem novos usuários usando um [!DNL API] chame.
-      * **[!UICONTROL DELETE_USERS]:** Permite que os usuários excluam usuários existentes usando um [!DNL API] chame.
-      * **[!UICONTROL EDIT_USERS]:** Permite que os usuários editem usuários existentes usando um [!DNL API] chame.
-      * **[!UICONTROL VIEW_USERS]:** Permite que os usuários visualizem outros usuários em sua configuração de Audience Manager usando um [!DNL API] chame.
-      * **[!UICONTROL CREATE_PARTNERS]:** Permite que os usuários criem parceiros de Audience Manager usando um [!DNL API] chame.
-      * **[!UICONTROL DELETE_PARTNERS]:** Permite que os usuários excluam parceiros de Audience Manager usando um [!DNL API] chame.
-      * **[!UICONTROL EDIT_PARTNERS]:** Permite que os usuários editem parceiros de Audience Manager usando um [!DNL API] chame.
-      * **[!UICONTROL VIEW_PARNTERS]:** Permite que os usuários visualizem parceiros de Audience Manager usando um [!DNL API] chame.
+      * **[!UICONTROL DEXADMIN]:** Fornece acesso de administrador para executar tarefas na ferramenta de Administração de Audience Manager. Se você não selecionar essa opção, poderá escolher funções individuais. Essas funções permitem que os usuários executem tarefas usando chamadas [!DNL API], mas não na Ferramenta de administração.
+      * **[!UICONTROL CREATE_USERS]:** Permite que usuários criem novos usuários usando uma chamada [!DNL API].
+      * **[!UICONTROL DELETE_USERS]:** Permite que os usuários excluam usuários existentes usando uma chamada [!DNL API].
+      * **[!UICONTROL EDIT_USERS]:** Permite que os usuários editem usuários existentes usando uma chamada [!DNL API].
+      * **[!UICONTROL VIEW_USERS]:** Permite que os usuários visualizem outros usuários em sua configuração de Audience Manager usando uma chamada [!DNL API].
+      * **[!UICONTROL CREATE_PARTNERS]:** Permite que os usuários criem parceiros de Audience Manager usando uma chamada [!DNL API].
+      * **[!UICONTROL DELETE_PARTNERS]:** Permite que os usuários excluam parceiros de Audience Manager usando uma chamada [!DNL API].
+      * **[!UICONTROL EDIT_PARTNERS]:** Permite que os usuários editem parceiros de Audience Manager usando uma chamada [!DNL API].
+      * **[!UICONTROL VIEW_PARNTERS]:** Permite que os usuários vejam parceiros de Audience Manager usando uma chamada [!DNL API].
    * **[!UICONTROL Status]:** Selecione o status desejado:
       * **[!UICONTROL Active]:** Especifica que este usuário está em um usuário Audience Manager ativo.
-      * **[!UICONTROL Deactivated]:** Especifica que este usuário é um usuário desativado no Gerenciamento de público-alvo.
+      * **[!UICONTROL Deactivated]:** Especifica que este usuário é um usuário desativado no Gerenciamento de Público-Alvo.
       * **[!UICONTROL Expired]:** Especifica que a conta deste usuário no Audience Manager expirou.
       * **[!UICONTROL Locked Out]:** Especifica que a conta deste usuário no Audience Manager está bloqueada.
 3. Clique em **[!UICONTROL Submit]**.

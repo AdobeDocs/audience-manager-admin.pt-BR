@@ -8,7 +8,7 @@ exl-id: b4bcf543-3769-4cb5-af96-7d60055376b8
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '195'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 4%
 
 Exibir ou editar containers e mapeamentos para provedores de dados de terceiros. Você também pode ativar o compartilhamento com diferentes provedores de dados.
 
-1. Clique em **[!UICONTROL Companies]**, localize e clique na empresa desejada para exibir sua [!UICONTROL Profile] página.
+1. Clique em **[!UICONTROL Companies]**, localize e clique na empresa desejada para exibir sua página [!UICONTROL Profile].
 
-   Use o [!UICONTROL Search] ou nos controles de paginação na parte inferior da lista para localizar a empresa desejada. Você pode classificar cada coluna em ordem crescente ou decrescente clicando no cabeçalho da coluna desejada.
-1. Clique em **[!UICONTROL Third Party Data Providers]** guia.
+   Use a caixa [!UICONTROL Search] ou os controles de paginação na parte inferior da lista para encontrar a empresa desejada. Você pode classificar cada coluna em ordem crescente ou decrescente clicando no cabeçalho da coluna desejada.
+1. Clique na guia **[!UICONTROL Third Party Data Providers]**.
 
    ![](assets/third_party_providers.png)
 
@@ -27,14 +27,14 @@ Exibir ou editar containers e mapeamentos para provedores de dados de terceiros.
 
    ![Resultado da etapa](assets/third_party_providers_edit.png)
 
-1. Selecionar **[!UICONTROL Enable Sharing]** para ativar as seguintes opções:
+1. Selecione **[!UICONTROL Enable Sharing]** para habilitar as seguintes opções:
 
-   * **Sobreposição de nível de parceiro:**
-   * **Uso do modelo ativado:** Permite que essa empresa use esse provedor de dados ao criar modelos algorítmicos.
+   * **Sobreposição no Nível do Parceiro:**
+   * **Uso do Modelo Habilitado:** Permite que esta empresa use este provedor de dados ao criar modelos algorítmicos.
 
    Ao habilitar o compartilhamento, você obtém acesso às características desse provedor de dados.
 
 1. (Condicional) Se o container for ativado para esse provedor, você poderá selecionar containers para esse provedor de dados movendo os containers desejados da lista disponível para a lista selecionada.
 
-   Também é possível executar essa tarefa no [Contêineres](../companies/admin-manage-containers.md#task_61DB5CEECC5049DD8D059C642AC3F967) página.
+   Você também pode executar esta tarefa a partir da página [Contêineres](../companies/admin-manage-containers.md#task_61DB5CEECC5049DD8D059C642AC3F967).
 1. Clique em **[!UICONTROL Save]** se você tiver feito alterações.

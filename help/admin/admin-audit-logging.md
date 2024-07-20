@@ -8,17 +8,17 @@ exl-id: ff68f90f-b521-4560-9bf6-a7a6a588adf9
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '51'
-ht-degree: 7%
+ht-degree: 0%
 
 ---
 
 # Logs de auditoria {#audit-logging}
 
-Uso [!UICONTROL  Audit Logging] como primeiro passo para depurar problemas do cliente.
+Use o [!UICONTROL  Audit Logging] como primeiro local a ir ao depurar problemas do cliente.
 
 >[!NOTE]
 >
->A variável [!UICONTROL Audit Logging] A funcionalidade e a documentação do estão atualmente em desenvolvimento e sujeitas a alterações. Registre todos os problemas encontrados no [!DNL JIRA] ([!DNL UI] equipe).
+>A funcionalidade e a documentação do [!UICONTROL Audit Logging] estão atualmente em desenvolvimento e sujeitas a alterações. Registre todos os problemas encontrados em [!DNL JIRA] ([!DNL UI] equipe).
 
 ![Exibição de log de auditoria](assets/audit-logging-img.png)
 

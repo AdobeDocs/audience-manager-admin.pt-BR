@@ -8,21 +8,21 @@ exl-id: 132a8e40-8001-4a49-9304-82e852ee28fd
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 12%
+ht-degree: 0%
 
 ---
 
 # Exemplos de macro de formato de arquivo {#file-format-macro-examples}
 
-Exemplos de como as macros são usadas para criar arquivos de saída, [!DNL FTP] modelos de arquivo.
+Exemplos de como as macros são usadas para criar modelos de arquivo de saída do [!DNL FTP].
 
 >[!NOTE]
 >
->Nas tabelas, **negrito** O tipo identifica cada macro com sua saída relacionada. Para os exemplos de formato, os &lt; > símbolos foram adicionados para ajudar a separar visualmente cada macro.
+>Nas tabelas, o tipo **boldface** identifica cada macro com sua saída relacionada. Para os exemplos de formato, os &lt; > símbolos foram adicionados para ajudar a separar visualmente cada macro.
 
 ## Macros comuns {#common-macros}
 
-Essas macros podem ser usadas em qualquer campo de formato. Consulte a [Macros de formato de arquivo](../formats/file-formats.md) para obter uma lista e definições completas.
+Essas macros podem ser usadas em qualquer campo de formato. Consulte as [Macros de Formato de Arquivo](../formats/file-formats.md) para obter uma lista completa e definições.
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -48,7 +48,7 @@ Essas macros podem ser usadas em qualquer campo de formato. Consulte a [Macros d
    <td colname="col1"> <p> <code>SYNC_MODE </code> </p> </td> 
    <td colname="col2"> <p>Formato: <code>&lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_ &lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Saída: 
      <ul id="ul_F63D7B78AF1246639D6ED85C1621B17C"> 
-      <li id="li_4D0D7B4D047345FE861FCBA2BD0408ED">Máximo: <code>ftp_215_888_ full_1449756724.sync </code> </li> 
+      <li id="li_4D0D7B4D047345FE861FCBA2BD0408ED">Total: <code>ftp_215_888_ full_1449756724.sync </code> </li> 
       <li id="li_23F4D1F6B2784E599EDA29AA457327E6">Incremental: <code>ftp_215_888_ iter_1449756724.sync </code> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -70,7 +70,7 @@ Essas macros podem ser usadas em qualquer campo de formato. Consulte a [Macros d
 
 ## Macros do campo de cabeçalho {#header-field-macros}
 
-Macros usadas somente em campos de cabeçalho. Consulte a [Macros de formato de arquivo](../formats/file-formats.md) para obter uma lista e definições completas.
+Macros usadas somente em campos de cabeçalho. Consulte as [Macros de Formato de Arquivo](../formats/file-formats.md) para obter uma lista completa e definições.
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -89,7 +89,7 @@ Macros usadas somente em campos de cabeçalho. Consulte a [Macros de formato de 
 
 ## Macros de linha de dados {#data-row-macros}
 
-Macros usadas somente em campos de cabeçalho. Consulte a [Macros de formato de arquivo](../formats/file-formats.md) para obter uma lista e definições completas.
+Macros usadas somente em campos de cabeçalho. Consulte as [Macros de Formato de Arquivo](../formats/file-formats.md) para obter uma lista completa e definições.
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 

@@ -7,8 +7,8 @@ uuid: 4534b622-4c8d-4c42-8019-1614faaba9d6
 exl-id: 27316802-9c98-41f5-af3e-edc11e572e29
 source-git-commit: e12731066834df18b44e6737fe8c1264d316f7fd
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 75%
+source-wordcount: '182'
+ht-degree: 83%
 
 ---
 
@@ -18,7 +18,7 @@ A ferramenta Administrador do Audience Manager permite adicionar e configurar em
 
 >[!IMPORTANT]
 >
-> O público-alvo deste repositório de documentação são funcionários internos na Adobe. Se você for um cliente do Audience Manager, navegue até o [Visão geral do guia do Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html).
+> O público-alvo deste repositório de documentação são funcionários internos na Adobe. Se você for um cliente Audience Manager, acesse a [visão geral do guia Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html).
 
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
  <tbody> 

@@ -8,7 +8,7 @@ exl-id: c1ac1d7c-84d4-44f0-a3b1-105078947dbc
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 
@@ -18,9 +18,9 @@ Exibir ou editar containers e mapeamentos para provedores de dados primários.
 
 <!-- t_first_party_providers.xml -->
 
-1. Clique em **[!UICONTROL Companies]**, localize e clique na empresa desejada para exibir sua [!UICONTROL Profile] página. Use o [!UICONTROL Search] ou nos controles de paginação na parte inferior da lista para localizar a empresa desejada. Você pode classificar cada coluna em ordem crescente ou decrescente clicando no cabeçalho da coluna desejada.
+1. Clique em **[!UICONTROL Companies]**, localize e clique na empresa desejada para exibir sua página [!UICONTROL Profile]. Use a caixa [!UICONTROL Search] ou os controles de paginação na parte inferior da lista para encontrar a empresa desejada. Você pode classificar cada coluna em ordem crescente ou decrescente clicando no cabeçalho da coluna desejada.
 
-1. Clique em **[!UICONTROL First Party Data Providers]** guia.
+1. Clique na guia **[!UICONTROL First Party Data Providers]**.
 
    ![](assets/first_party_providers.png)
 
@@ -28,5 +28,5 @@ Exibir ou editar containers e mapeamentos para provedores de dados primários.
 
    ![Resultado da etapa](assets/first_party_providers_edit.png)
 
-1. Mover contêineres do **[!UICONTROL Available Containers]** e **[!UICONTROL Selected Containers for This Data Provider]** listas selecionando os contêineres desejados e clicando nas setas para a direita ou esquerda, conforme necessário.
+1. Mova os contêineres das listas **[!UICONTROL Available Containers]** e **[!UICONTROL Selected Containers for This Data Provider]** selecionando os contêineres desejados e clicando nas setas para a direita ou para a esquerda, conforme necessário.
 1. Clique em **[!UICONTROL Save]** se você tiver feito alterações.

@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Relatório {#reporting}
 
-Gerencie relatórios de Audience Manager criando novos relatórios ou editando ou excluindo relatórios existentes. Você também pode atribuir um usuário do portal como [!DNL Tableau] usuário.
+Gerencie relatórios de Audience Manager criando novos relatórios ou editando ou excluindo relatórios existentes. Você também pode atribuir um usuário do portal como um usuário [!DNL Tableau].
 
 <!-- c_reporting.xml -->
 
@@ -22,4 +22,4 @@ Gerencie relatórios de Audience Manager criando novos relatórios ou editando o
 
 Você pode classificar cada coluna em ordem crescente ou decrescente clicando no cabeçalho da coluna desejada.
 
-Use o [!UICONTROL Search] ou nos controles de paginação na parte inferior da lista para localizar o relatório desejado.
+Use a caixa [!UICONTROL Search] ou os controles de paginação na parte inferior da lista para localizar o relatório desejado.

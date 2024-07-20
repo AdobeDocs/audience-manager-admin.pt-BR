@@ -8,7 +8,7 @@ exl-id: d501cfd1-64dd-448e-92c5-180c0081d3e5
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 7%
+ht-degree: 0%
 
 ---
 
@@ -18,17 +18,17 @@ Siga estas instruções para gerar um arquivo de sincronização completo que in
 
 >[!NOTE]
 >
->Um visitante não precisa ser visto em um site de cliente selecionado ou em seu tráfego de anúncio para se qualificar como &quot;ativo&quot;. Elas podem ser vistas por qualquer [!DNL Audience Manager] cliente ou parceiro para qualificar como &quot;ativo&quot;.
+>Um visitante não precisa ser visto em um site de cliente selecionado ou em seu tráfego de anúncio para se qualificar como &quot;ativo&quot;. Elas podem ser vistas por qualquer cliente ou parceiro do [!DNL Audience Manager] como &quot;ativas&quot;.
 
 Para filtrar somente por usuários ativos:
 
 1. Clique em **[!UICONTROL Companies]**.
 1. Selecione a empresa com a qual deseja trabalhar e clique em **[!UICONTROL Destinations]**.
-1. No [!UICONTROL Batch Data] defina as seguintes opções:
+1. Na seção [!UICONTROL Batch Data], defina as seguintes opções:
 
-   * **[!UICONTROL Sync Type]**: Selecionar **[!UICONTROL Customer]** ou **[!UICONTROL Platform]**.
+   * **[!UICONTROL Sync Type]**: Selecione **[!UICONTROL Customer]** ou **[!UICONTROL Platform]**.
    * **[!UICONTROL Sync Type Lookback Period]**: esse intervalo de tempo define o intervalo do arquivo de dados. As opções incluem **[!UICONTROL 24 hours]**, **[!UICONTROL 7 days]**, **[!UICONTROL 30 days]**.
-   * **[!UICONTROL Incremental Sync Scheduled Run]**: Selecionar **[!UICONTROL Never]**. Lembre-se de que esse filtro se aplica somente aos arquivos de sincronização completa.
-   * **[!UICONTROL Full Sync Scheduled Run]**: isso determina com que frequência você deseja receber esse arquivo. As opções incluem **[!UICONTROL 24 hours]**, **[!UICONTROL 7 days]**, **[!UICONTROL 30 days]** ou **[!UICONTROL Never]** (para desativar).
+   * **[!UICONTROL Incremental Sync Scheduled Run]**: Selecione **[!UICONTROL Never]**. Lembre-se de que esse filtro se aplica somente aos arquivos de sincronização completa.
+   * **[!UICONTROL Full Sync Scheduled Run]**: Isso determina com que frequência você deseja receber esse arquivo. As opções incluem **[!UICONTROL 24 hours]**, **[!UICONTROL 7 days]**, **[!UICONTROL 30 days]** ou **[!UICONTROL Never]** (para desabilitar).
 
 1. Clique em **[!UICONTROL Save]**.

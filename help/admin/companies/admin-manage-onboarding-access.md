@@ -4,7 +4,7 @@ title: Gerenciar o acesso de integração para dados de terceiros
 exl-id: 03bec978-dd31-41cc-a3aa-d67fbb98963c
 source-git-commit: cc04863272005964cfbf1bb2319cc0dd86863680
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -20,4 +20,4 @@ Para evitar a integração acidental de arquivos e dados em fontes de dados de d
 
 Para fins de compartilhamento de dados de terceiros, se um parceiro de Audience Manager ou cliente quiser assimilar arquivos em uma fonte de dados de destino que não seja sua, será necessário solicitar um mapeamento entre a ID do parceiro (PID) e essa fonte de dados específica (DPID). Se o mapeamento estiver ausente, os arquivos não serão processados pelo trabalho de dados de entrada e os dados não serão integrados no Audience Manager.
 
-Para criar esse mapeamento, envie um tíquete Jira à equipe de engenharia do Audience Manager. Exibir um exemplo de tíquete Jira [aqui](https://jira.corp.adobe.com/browse/AAM-60353). Não é necessário solicitar que os mapeamentos sejam criados para quaisquer relações de compartilhamento de dados existentes.
+Para criar esse mapeamento, envie um tíquete Jira à equipe de engenharia do Audience Manager. Veja um exemplo de tíquete Jira [aqui](https://jira.corp.adobe.com/browse/AAM-60353). Não é necessário solicitar que os mapeamentos sejam criados para quaisquer relações de compartilhamento de dados existentes.

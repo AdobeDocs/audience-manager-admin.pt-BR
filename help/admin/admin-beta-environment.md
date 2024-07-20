@@ -3,17 +3,17 @@ description: O ambiente beta é usado para testar implementações de Audience M
 seo-description: The beta environment is for testing Audience Manager implementations. Changes made in beta do not affect production data. The Audience Manager beta environment is a smaller-scale, standalone version of the production environment. All the data that you want to test must be entered and collected in this environment.
 seo-title: Beta Environment
 solution: Audience Manager
-title: Ambiente beta
+title: Ambiente do Beta
 uuid: 6a253f4e-96e7-4395-a783-a8eb213b7daf
 exl-id: 78d5a1ff-c016-4366-ba34-9814a0d92067
 source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 3%
+source-wordcount: '348'
+ht-degree: 2%
 
 ---
 
-# Ambiente beta {#beta-environment}
+# Ambiente do Beta {#beta-environment}
 
 O ambiente beta é usado para testar implementações de Audience Manager. As alterações feitas na versão beta não afetam os dados de produção. O ambiente beta do Audience Manager é uma versão independente e em menor escala do ambiente de produção. Todos os dados que você deseja testar devem ser inseridos e coletados neste ambiente.
 
@@ -23,8 +23,8 @@ O ambiente beta é usado para testar implementações de Audience Manager. As al
 
 | Serviço | URL/Nome do host | Etapas para provisionar |
 |--- |--- |--- |
-| S3 |  | Consulte [Provisionamento de buckets do Amazon S3](admin-beta-environment.md#provision-s3-buckets). |
-| DCS | https&amp;colon;//dcs-beta.demdex.net/... | Não são necessários passos extras da nossa parte. Consulte [Acessar o DCS no ambiente beta](admin-beta-environment.md#access-dcs-beta-environment). |
+| S3 | | Consulte [Provisionar buckets do Amazon S3](admin-beta-environment.md#provision-s3-buckets). |
+| DCS | https&amp;colon;//dcs-beta.demdex.net/... | Não são necessários passos extras da nossa parte. Consulte [Acessar o DCS no Ambiente Beta](admin-beta-environment.md#access-dcs-beta-environment). |
 | Interface do usuário | https&amp;colon;//bank-beta.demdex.com | Os dados são copiados do ambiente de produção para o ambiente beta mensalmente. As credenciais de produção são válidas para o beta. |
 | API | https&amp;colon;//api-beta.demdex.com/... | Os dados são copiados do ambiente de produção para o ambiente beta mensalmente. As credenciais de produção são válidas para o beta. |
 
@@ -34,27 +34,27 @@ O ambiente beta é usado para testar implementações de Audience Manager. As al
 >
 >Estamos deixando de usar o [!DNL FTP/SFTP]. Além disso, observe que as transferências de dados de saída não funcionam para o ambiente beta.
 
-Para provisionar [!DNL S3] intervalos para dados de entrada:
+Para provisionar [!DNL S3] buckets para dados de entrada:
 
-1. Use o [**Solicitação de ajuda TechOps do SKMS**](https://skms.adobe.com/) recurso.
-1. Ir para **[!UICONTROL Request TechOps Help]** no painel de navegação esquerdo.
-1. Entrada **[!UICONTROL Request Search]**, digite Audience Manager no campo de pesquisa.
-1. Role para baixo nos resultados da pesquisa e clique em **Audience Manager - Provisionamento de conta de entrada/saída S3**.
-1. Preencha os campos na janela de provisionamento e especifique **Ambiente de sandbox** no **[!UICONTROL Environment]** campo.
+1. Use o recurso [**Ajuda de TechOps para Solicitação do SKMS**](https://skms.adobe.com/).
+1. Vá para **[!UICONTROL Request TechOps Help]** no painel de navegação esquerdo.
+1. Em **[!UICONTROL Request Search]**, digite Audience Manager no campo de pesquisa.
+1. Role para baixo nos resultados da pesquisa e clique em **Audience Manager - Configuração de conta de entrada/saída S3**.
+1. Preencha os campos na janela de provisionamento e especifique **Ambiente de sandbox** no campo **[!UICONTROL Environment]**.
 
 >[!NOTE]
 >
->Nós desencorajamos o uso de [!DNL FTP/SFTP] e incentivar a utilização de [!UICONTROL Amazon S3]. As razões pelas quais incentivamos o uso de [!UICONTROL Amazon S3] estão listados em [Amazon S3:Sobre](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html).
+>Desincentivamos o uso do [!DNL FTP/SFTP] e incentivamos o uso do [!UICONTROL Amazon S3]. Os motivos pelos quais incentivamos o uso do [!UICONTROL Amazon S3] estão listados no [Amazon S3:About](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html).
 
-## Acessar o DCS no ambiente beta {#access-dcs-beta-environment}
+## Acessar o DCS no ambiente Beta {#access-dcs-beta-environment}
 
 Para acessar o [!UICONTROL DCS] no ambiente beta:
 
-1. Criar um [!UICONTROL DCS] chame, usando o [!DNL curl] [comando](https://curl.haxx.se/docs/manpage.html). [!DNL Curl] O é uma ferramenta para transferir dados do ou para um servidor, usando um dos vários protocolos compatíveis.
+1. Fazer uma chamada [!UICONTROL DCS], usando o [!DNL curl] [comando](https://curl.haxx.se/docs/manpage.html). [!DNL Curl] é uma ferramenta para transferir dados de ou para um servidor, usando um dos vários protocolos com suporte.
 
    Por exemplo: `curl -v https://dcs-beta.demdex.net/event`
 
-1. Verifique se sua solicitação foi atendida pelo beta [!UICONTROL DCS] procurando por &quot;[!DNL sandbox]&quot; no [!UICONTROL DCS] cabeçalho de resposta.
+1. Verifique se sua solicitação foi atendida pelo beta [!UICONTROL DCS] procurando por &quot;[!DNL sandbox]&quot; no cabeçalho de resposta [!UICONTROL DCS].
 
    Por exemplo:
 
