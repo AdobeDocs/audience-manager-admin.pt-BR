@@ -5,7 +5,7 @@ seo-title: Create or Edit an FTP Server
 title: Criar ou editar um servidor FTP
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
 exl-id: 9eae4ecf-ccde-483a-ae53-1cbac033d8d6
-source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
+source-git-commit: 8af040e49b881302315e0b66baa73db47c5eee28
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 1%
@@ -41,7 +41,7 @@ Use a página [!UICONTROL Servers] na ferramenta Audience Manager Admin para cri
 
    >[!NOTE]
    >
-   >Lembre-se de adicionar nossa saída [!DNL FTP] [!DNL IP] à sua lista de IPs permitidos: **52.44.29.204**.
+   >Lembre-se de adicionar nossa saída [!DNL FTP] [!DNL IP] à sua lista de IPs permitidos: **54.204.116.43**.
 
 1. Para autenticação **[!UICONTROL SSH Key]**:
    >[!NOTE]
