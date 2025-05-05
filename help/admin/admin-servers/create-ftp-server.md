@@ -47,7 +47,7 @@ Use a página [!UICONTROL Servers] na ferramenta Audience Manager Admin para cri
    >[!NOTE]
    >
    >Ao configurar a autenticação da Chave SSH, sempre gere as chaves públicas e privadas somente no formato OpenSSH.
-   1. Gere o par de chaves públicas/privadas de qualquer computador [!DNL Linux] ou [!DNL Mac].
-   1. Forneça a **chave pública** ao cliente para atualizar no servidor [!DNL SFTP]. Eles devem incluir todo o texto da chave pública em seus servidores, incluindo `-----BEGIN RSA PRIVATE KEY-----` e `-----END RSA PRIVATE KEY-----`. No Exchange, eles devem fornecer o nome de usuário com o qual estão instalando a chave.
-   1. Atualize o campo de nome de usuário com o campo fornecido pelo cliente e o campo de chave com a **chave privada**.
+   >1. Gere o par de chaves públicas/privadas de qualquer computador [!DNL Linux] ou [!DNL Mac].
+   >1. Forneça a **chave pública** ao cliente para atualizar no servidor [!DNL SFTP]. Eles devem incluir todo o texto da chave pública em seus servidores, incluindo `-----BEGIN RSA PRIVATE KEY-----` e `-----END RSA PRIVATE KEY-----`. No Exchange, eles devem fornecer o nome de usuário com o qual estão instalando a chave.
+   >1. Atualize o campo de nome de usuário com o campo fornecido pelo cliente e o campo de chave com a **chave privada**.
 1. Clique em **[!UICONTROL Create]** se estiver criando um novo servidor ou clique em **[!UICONTROL Update]** se estiver editando um servidor existente.

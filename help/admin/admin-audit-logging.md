@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Logs de auditoria {#audit-logging}
 
-Use o [!UICONTROL  Audit Logging] como primeiro local a ir ao depurar problemas do cliente.
+Use o [!UICONTROL &#x200B; Audit Logging] como primeiro local a ir ao depurar problemas do cliente.
 
 >[!NOTE]
 >

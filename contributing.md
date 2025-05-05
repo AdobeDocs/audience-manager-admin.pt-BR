@@ -17,7 +17,7 @@ Este projeto adere ao [código de conduta](https://git.corp.adobe.com/OpenSource
 
 ## Contrato de licença de colaborador
 
-Todas as contribuições de terceiros a este projeto devem ser acompanhadas por uma licença do contribuidor assinada. Isso dá à Adobe a permissão de redistribuir suas contribuições como parte do projeto. Assine nosso CLA em [ALGUM LINK](ainda sem link). É necessário enviar apenas um Adobe CLA por vez. Se já tiver enviado anteriormente, provavelmente já está pronto para prosseguir!
+Todas as contribuições de terceiros a este projeto devem ser acompanhadas por uma licença do contribuidor assinada. Isso dá à Adobe a permissão de redistribuir suas contribuições como parte do projeto. Assine nosso CLA em [ALGUM LINK] (ainda sem link). É necessário enviar apenas um Adobe CLA por vez. Se já tiver enviado anteriormente, provavelmente já está pronto para prosseguir!
 
 ## Revisões do código
 
