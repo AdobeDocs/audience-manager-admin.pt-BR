@@ -105,7 +105,7 @@ Macros usadas somente em linhas de dados. Para obter exemplos, consulte [Exemplo
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>CLOSE_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Insere uma chave fechada com <code>}</code> caractere. </p> </td> 
+   <td colname="col2"> <p>Insere uma chave fechada com <code>&rbrace;</code> caractere. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>COMMA</code> </p> </td> 
@@ -137,7 +137,7 @@ Macros usadas somente em linhas de dados. Para obter exemplos, consulte [Exemplo
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPEN_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Insere uma chave de abertura <code>{</code> caractere. </p> </td> 
+   <td colname="col2"> <p>Insere uma chave de abertura <code>&lbrace;</code> caractere. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPT_OUT</code> </p> </td> 
