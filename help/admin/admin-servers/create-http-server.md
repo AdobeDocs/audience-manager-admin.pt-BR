@@ -50,7 +50,7 @@ Use a página [!UICONTROL Servers] na ferramenta Audience Manager Admin para cri
 
    >[!NOTE]
    >
-   >Se você quiser habilitar a autenticação do [OAuth 2.0 para transferências de dados em tempo real](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=en) para um parceiro, preencha os campos conforme a tabela abaixo. Os campos em *itálico* precisam ser preenchidos exatamente como na tabela.
+   >Se você quiser habilitar a autenticação do [OAuth 2.0 para transferências de dados em tempo real](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=pt-BR) para um parceiro, preencha os campos conforme a tabela abaixo. Os campos em *itálico* precisam ser preenchidos exatamente como na tabela.
 
    | Nome | Valor |
    |---|---|

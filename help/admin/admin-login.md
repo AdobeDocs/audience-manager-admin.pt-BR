@@ -18,7 +18,7 @@ Faça logon na Ferramenta de administração do Adobe Audience Manager com o nav
 
 >[!IMPORTANT]
 >
-> O público-alvo deste repositório de documentação são os funcionários internos da Adobe. Se você for um cliente do Audience Manager, acesse a [visão geral do guia do Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)
+> O público-alvo deste repositório de documentação são os funcionários internos da Adobe. Se você for um cliente do Audience Manager, acesse a [visão geral do guia do Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=pt-BR)
 
 <!-- t_login.xml -->
 
