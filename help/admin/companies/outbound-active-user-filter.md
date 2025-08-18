@@ -1,5 +1,5 @@
 ---
-description: Siga estas instruções para gerar um arquivo de sincronização completo que inclua apenas usuários ativos recentemente. Talvez você queira filtrar por usuários ativos para enviar dados relevantes para um sistema de direcionamento no site ou limitar o tamanho dos arquivos enviados para um DSP. Não é possível usar esse filtro com sincronização incremental.
+description: Siga estas instruções para gerar um arquivo de sincronização completo que inclua apenas usuários ativos recentemente. Talvez você queira filtrar para que os usuários ativos enviem dados relevantes para um sistema de direcionamento no site ou limitar o tamanho dos arquivos enviados para uma DSP. Não é possível usar esse filtro com sincronização incremental.
 seo-description: Follow these instructions to generate a full synchronization file that includes recently active users only. You may want to filter for active users to push relevant data to an on-site targeting system or to limit the size of the files sent to a DSP. You cannot use this filter with incremental synchronization.
 seo-title: Filter Outbound Data by Active Users Only
 title: Filtrar dados de saída somente por usuários ativos
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Filtrar dados de saída somente por usuários ativos {#filter-outbound-data-by-active-users-only}
 
-Siga estas instruções para gerar um arquivo de sincronização completo que inclua apenas usuários ativos recentemente. Talvez você queira filtrar por usuários ativos para enviar dados relevantes para um sistema de direcionamento no site ou limitar o tamanho dos arquivos enviados para um DSP. Não é possível usar esse filtro com sincronização incremental.
+Siga estas instruções para gerar um arquivo de sincronização completo que inclua apenas usuários ativos recentemente. Talvez você queira filtrar para que os usuários ativos enviem dados relevantes para um sistema de direcionamento no site ou limitar o tamanho dos arquivos enviados para uma DSP. Não é possível usar esse filtro com sincronização incremental.
 
 >[!NOTE]
 >

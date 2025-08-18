@@ -1,5 +1,5 @@
 ---
-description: As Opções de gráfico de dispositivo estão disponíveis para empresas que participam do Adobe Experience Cloud Device Co-op. Se um cliente também tiver uma relação contratual com um provedor de gráficos de dispositivos de terceiros que esteja integrado ao Audience Manager, esta seção mostrará opções para esse gráfico de dispositivos. Essas opções estão localizadas em Empresas > nome da empresa > Perfil > Opções de gráfico de dispositivo.
+description: As Opções de gráfico de dispositivo estão disponíveis para empresas que participam do Adobe Experience Cloud Device Co-op. Se um cliente também tiver uma relação contratual com um provedor de gráficos de dispositivos de terceiros integrado ao Audience Manager, esta seção mostrará opções para esse gráfico de dispositivos. Essas opções estão localizadas em Empresas > nome da empresa > Perfil > Opções de gráfico de dispositivo.
 seo-description: The Device Graph Options are available to companies that participate in the Adobe Experience Cloud Device Co-op. If a customer also has a contractual relationship with a third-party device graph provider that is integrated with Audience Manager, this section will show options for that device graph. These options are located in Companies > company name > Profile > Device Graph Options.
 seo-title: Device Graph Options for Companies
 title: Opções de gráfico de dispositivo para empresas
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Opções de gráfico de dispositivo para empresas {#device-graph-options-for-companies}
 
-Os [!UICONTROL Device Graph Options] estão disponíveis para empresas que participam do [!DNL Adobe Experience Cloud Device Co-op]. Se um cliente também tiver uma relação contratual com um provedor de gráficos de dispositivos de terceiros que esteja integrado ao Audience Manager, esta seção mostrará opções para esse gráfico de dispositivos. Estas opções estão localizadas em [!UICONTROL Companies] > nome da empresa > [!UICONTROL Profile] > [!UICONTROL Device Graph Options].
+Os [!UICONTROL Device Graph Options] estão disponíveis para empresas que participam do [!DNL Adobe Experience Cloud Device Co-op]. Se um cliente também tiver uma relação contratual com um provedor de gráficos de dispositivos de terceiros integrado ao Audience Manager, esta seção mostrará opções para esse gráfico de dispositivos. Estas opções estão localizadas em [!UICONTROL Companies] > nome da empresa > [!UICONTROL Profile] > [!UICONTROL Device Graph Options].
 
 ![](assets/adminUIdataSource.png)
 
@@ -30,7 +30,7 @@ As opções de gráfico de dispositivos selecionadas aqui expõem ou ocultam as 
 
 ### Gráfico de dispositivos cooperativos {#co-op-graph}
 
-Os clientes que participam do [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html?lang=pt-BR) da Adobe Experience Cloud usam essas opções para criar um [!UICONTROL Profile Merge Rule] com [dados determinísticos e probabilísticos](https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/links.html?lang=pt-BR). O [!DNL Corporate Provisioning Team] ativa e desativa essa opção por meio de uma chamada [!DNL API] de back-end. Não é possível marcar ou desmarcar estas caixas em [!DNL Admin UI]. Além disso, as opções **[!UICONTROL Co-op Device Graph]** e **[!UICONTROL Company Device Graph]** são mutuamente exclusivas. Os clientes podem nos pedir para ativar um ou outro, mas não ambos. Quando marcado, expõe o controle **[!UICONTROL Co-op Device Graph]** nas configurações [!UICONTROL Device Options] para [!UICONTROL Profile Merge Rule].
+Os clientes que participam do [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html?lang=en) da Adobe Experience Cloud usam essas opções para criar um [!UICONTROL Profile Merge Rule] com [dados determinísticos e probabilísticos](https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/links.html?lang=en). O [!DNL Corporate Provisioning Team] ativa e desativa essa opção por meio de uma chamada [!DNL API] de back-end. Não é possível marcar ou desmarcar estas caixas em [!DNL Admin UI]. Além disso, as opções **[!UICONTROL Co-op Device Graph]** e **[!UICONTROL Company Device Graph]** são mutuamente exclusivas. Os clientes podem nos pedir para ativar um ou outro, mas não ambos. Quando marcado, expõe o controle **[!UICONTROL Co-op Device Graph]** nas configurações [!UICONTROL Device Options] para [!UICONTROL Profile Merge Rule].
 
 ![](assets/adminUI1.png)
 
@@ -39,7 +39,7 @@ Os clientes que participam do [Device Co-op](https://experienceleague.adobe.com/
 Esta opção é para clientes do [!DNL Analytics] que usam a métrica [!UICONTROL People] em seus conjuntos de relatórios [!DNL Analytics]. O [!DNL Corporate Provisioning Team] ativa e desativa essa opção por meio de uma chamada [!DNL API] de back-end. Não é possível marcar ou desmarcar estas caixas em [!DNL Admin UI]. Além disso, as opções **[!UICONTROL Company Device Graph]** e **[!UICONTROL Co-op Device Graph]** são mutuamente exclusivas. Os clientes podem nos pedir para ativar um ou outro, mas não ambos. Quando marcado:
 
 * Este gráfico de dispositivos usa dados determinísticos que pertencem à empresa que você está configurando (sem dados probabilísticos).
-* [!DNL Audience Manager] cria automaticamente um [!UICONTROL Data Source] chamado `*`nome do parceiro`*-Company Device Graph-Person`. Na página de detalhes do [!UICONTROL Data Source], os clientes do [!DNL Audience Manager] podem alterar o nome e a descrição do parceiro e aplicar os [Controles da Exportação de Dados](https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/links.html?lang=pt-BR) a essa fonte de dados.
+* [!DNL Audience Manager] cria automaticamente um [!UICONTROL Data Source] chamado `*`nome do parceiro`*-Company Device Graph-Person`. Na página de detalhes do [!UICONTROL Data Source], os clientes do [!DNL Audience Manager] podem alterar o nome e a descrição do parceiro e aplicar os [Controles da Exportação de Dados](https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/links.html?lang=en) a essa fonte de dados.
 * [!DNL Audience Manager] clientes *não* veem uma nova configuração na seção [!UICONTROL Device Options] para um [!UICONTROL Profile Merge Rule].
 
 ### Gráfico de dispositivos do LiveRamp (pessoa ou residência) {#liveramp-device-graph}
@@ -50,5 +50,5 @@ Estas caixas de seleção estão habilitadas no [!DNL Admin UI] quando um parcei
 
 >[!MORELIKETHIS]
 >
->* [Definição das opções da regra de mesclagem de perfis](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/merge-rule-definitions.html?lang=pt-BR)
->* [Opções de Menu e Configurações do Data Source](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=pt-BR)
+>* [Definição das opções da regra de mesclagem de perfis](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/merge-rule-definitions.html?lang=en)
+>* [Opções de Menu e Configurações do Data Source](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=en)

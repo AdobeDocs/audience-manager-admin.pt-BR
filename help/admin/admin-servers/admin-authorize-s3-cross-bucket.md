@@ -1,5 +1,5 @@
 ---
-description: É possível que alguns clientes não queiram fornecer acesso ao Amazon Simple Storage Service (Amazon S3) ou chaves secretas para o Adobe para autorizar o upload de dados de destino para seus buckets.
+description: É possível que alguns clientes não queiram fornecer acesso ao Amazon Simple Storage Service (Amazon S3) ou chaves secretas ao Adobe para autorizar o upload de dados de destino para seus buckets.
 seo-description: Some customers may not want to provide their Amazon Simple Storage Service (Amazon S3) access or secret keys to Adobe to authorize destination data upload to their buckets.
 seo-title: How To  Authorize Cross-Account Amazon S3 Bucket Access for Batch Destinations
 title: Como autorizar acesso ao bucket do Amazon S3 entre contas para destinos em lote
@@ -22,7 +22,7 @@ Uma alternativa que podemos oferecer aos nossos clientes é o [!UICONTROL Cross-
 1. Selecione **[!UICONTROL S3]** na máscara suspensa **[!UICONTROL Protocol/Credentials]**.
 1. Marque a opção **[!UICONTROL Use Internal Adobe Key]**.
 1. Use a conta e o nome do bucket do seu cliente no [!DNL Amazon S3].
-1. Certifique-se de que o cliente liste a conta `975822914085` do [!DNL Amazon S3] no seu bucket [!DNL S3].
+1. Certifique-se de que o cliente liste a conta [!DNL Amazon S3] do `975822914085` no seu bucket [!DNL S3].
 
 >[!NOTE]
 >

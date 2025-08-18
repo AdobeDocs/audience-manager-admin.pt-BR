@@ -30,12 +30,12 @@ Consulte os [Exemplos de Macro de Formato HTTP](../formats/web-format-examples.m
   <tr> 
    <td colname="col1"> <p> <code>AAM_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p> ID DO Audience Manager </span> <span class="keyword">. </p> </td> 
+   <td colname="col3"> <p> ID <span class="keyword"> do Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>ID de usuário exclusiva do parceiro de dados. Essa macro retorna a ID atribuída a um usuário se a ID dele já tiver sido sincronizada com uma ID de dispositivo <span class="keyword"> Audience Manager </span>. </p> </td> 
+   <td colname="col3"> <p>ID de usuário exclusiva do parceiro de dados. Essa macro retorna a ID atribuída a um usuário se a ID dele já tiver sido sincronizada com uma ID de dispositivo do <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
@@ -50,7 +50,7 @@ Consulte os [Exemplos de Macro de Formato HTTP](../formats/web-format-examples.m
   <tr> 
    <td colname="col1"> <p> <code>GENERATION_TIME</code> </p> </td> 
    <td colname="col2"> <p> <code>GET, POST</code> </p> </td> 
-   <td colname="col3"> <p>Carimbo de data e hora Unix UTC. Um carimbo de data/hora interno, que representa a hora em que o AAM foi notificado a publicar o destino </span> do S2S <span class="wintitle"> para nossos parceiros. </p> </td> 
+   <td colname="col3"> <p>Carimbo de data e hora Unix UTC. Um carimbo de data/hora interno representa a hora em que a AAM foi notificada para publicar o destino <span class="wintitle"> do S2S </span> para nossos parceiros. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>IP</code> </p> </td> 
@@ -90,7 +90,7 @@ Consulte os [Exemplos de Macro de Formato HTTP](../formats/web-format-examples.m
   <tr> 
    <td colname="col1"> <p> <code>REGION_ID_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>A região </a> do DCS Audience Manager <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=pt-BR"> de onde a atividade se originou.</p> </td> 
+   <td colname="col3"> <p>A região <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=en"> do Audience Manager DCS </a> de onde a atividade se originou.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
@@ -159,7 +159,7 @@ Consulte os [Exemplos de Macro de Formato HTTP](../formats/web-format-examples.m
   <tr> 
    <td colname="col1"> <p> <code>USER_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>POST</code> </p> </td> 
-   <td colname="col3"> <p>Uma lista de <span class="keyword"> Audience Manager </span> IDs de usuário. Você também pode retornar campos específicos que incluem o seguinte: </p> 
+   <td colname="col3"> <p>Uma lista de <span class="keyword"> IDs de usuário do Audience Manager </span>. Você também pode retornar campos específicos que incluem o seguinte: </p> 
     <ul id="ul_B6857D809FDC46749B7E745BD8C45F8E"> 
      <li id="li_F31CD82D16ED41FD82518141D90B5B35"> <code>user.aamUuid</code> </li> 
      <li id="li_623FA758C84D4A2D9B25C7FBE90F62B7"> <code>user.dpUuid</code> </li> 

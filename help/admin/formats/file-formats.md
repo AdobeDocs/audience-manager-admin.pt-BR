@@ -105,7 +105,7 @@ Macros usadas somente em linhas de dados. Para obter exemplos, consulte [Exemplo
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>CLOSE_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Insere uma chave fechada com <code>&rbrace;</code> caractere. </p> </td> 
+   <td colname="col2"> <p>Insere uma chave fechada com <code>}</code> caractere. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>COMMA</code> </p> </td> 
@@ -113,7 +113,7 @@ Macros usadas somente em linhas de dados. Para obter exemplos, consulte [Exemplo
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
-   <td colname="col2"> <p> Identificador De Usuário Exclusivo </span> Do Parceiro De Dados <span class="term">. Retorna a ID que você atribuiu a um visitante do usuário/site se essa ID já tiver sido sincronizada com uma ID de dispositivo <span class="keyword"> Audience Manager </span>. </p> <p>Se a DPID for 0, essa macro retornará a ID do Audience Manager </span> do <span class="keyword"> em vez da ID do usuário. </p> </td> 
+   <td colname="col2"> <p> Identificador De Usuário Exclusivo <span class="term"> Do Parceiro De Dados </span>. Retorna a ID atribuída a um visitante do usuário/site se essa ID já tiver sido sincronizada com uma ID de dispositivo do <span class="keyword"> Audience Manager </span>. </p> <p>Se a DPID for 0, essa macro retornará a ID <span class="keyword"> do Audience Manager </span> em vez da ID para o usuário. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID_LIST</code> </p> </td> 
@@ -133,11 +133,11 @@ Macros usadas somente em linhas de dados. Para obter exemplos, consulte [Exemplo
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>MCID</code> </p> </td> 
-   <td colname="col2"> <p> ID </span> do Adobe Experience Cloud <span class="keyword">. </p> </td> 
+   <td colname="col2"> <p> ID <span class="keyword"> do Adobe Experience Cloud </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPEN_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Insere uma chave de abertura <code>&lbrace;</code> caractere. </p> </td> 
+   <td colname="col2"> <p>Insere uma chave de abertura <code>{</code> caractere. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPT_OUT</code> </p> </td> 
@@ -194,7 +194,7 @@ Macros usadas somente em linhas de dados. Para obter exemplos, consulte [Exemplo
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>UUID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> ID de usuário. </p> </td> 
+   <td colname="col2"> <p> ID de usuário do <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

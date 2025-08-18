@@ -1,5 +1,5 @@
 ---
-description: Gerencie relatórios de Audience Manager criando novos relatórios ou editando ou excluindo relatórios existentes. Você também pode atribuir um usuário do portal como usuário do Tableau.
+description: Gerencie relatórios do Audience Manager criando novos relatórios ou editando ou excluindo relatórios existentes. Você também pode atribuir um usuário do portal como usuário do Tableau.
 seo-description: Manage Audience Manager reports by creating new reports or by editing or deleting existing reports. You can also assign a portal user as a Tableau user.
 seo-title: Reporting
 title: Relatório
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Relatório {#reporting}
 
-Gerencie relatórios de Audience Manager criando novos relatórios ou editando ou excluindo relatórios existentes. Você também pode atribuir um usuário do portal como um usuário [!DNL Tableau].
+Gerencie relatórios do Audience Manager criando novos relatórios ou editando ou excluindo relatórios existentes. Você também pode atribuir um usuário do portal como um usuário [!DNL Tableau].
 
 <!-- c_reporting.xml -->
 

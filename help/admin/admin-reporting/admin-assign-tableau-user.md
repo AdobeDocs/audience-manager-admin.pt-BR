@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- t_tabeau.xml -->
 
-Use a página [!UICONTROL Reporting] para tornar um usuário do portal um usuário [!DNL Tableau]. Isso permite que os usuários visualizem [!DNL Tableau] relatórios no Audience Manager.
+Use a página [!UICONTROL Reporting] para tornar um usuário do portal um usuário [!DNL Tableau]. Isso permite que os usuários visualizem relatórios de [!DNL Tableau] no Audience Manager.
 
 1. Clique em **[!UICONTROL Reporting]** > **[!UICONTROL Assign Portal User to Tableau User]**.
 
