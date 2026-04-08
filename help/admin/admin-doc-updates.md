@@ -24,7 +24,7 @@ ht-degree: 88%
 
 Todas as atualizações (adições, exclusões e correções) no Guia do Administrador do Audience Manager, por data.
 
-Para obter informações sobre lançamentos de recursos, melhorias e correções de erros, consulte as [Notas de versão da Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en). Para [!DNL Audience Manager] alterações na documentação, consulte [Atualizações na Documentação](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en).
+Para obter informações sobre lançamentos de recursos, melhorias e correções de erros, consulte as [Notas de versão da Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR). Para [!DNL Audience Manager] alterações na documentação, consulte [Atualizações na Documentação](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=pt-BR).
 
 ## Atualizações de documentação do AAM 2019 {#aam-2019-docs-updates}
 
@@ -108,7 +108,7 @@ Para obter informações sobre lançamentos de recursos, melhorias e correções
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="admin-oauth2/aam-admin-api-requirements.md#concept_A7FAC9443CF34974A873E6B787616421"> Requisitos da API e recomendações</a> </p> </td> 
-   <td colname="col2"> <p>Nova documentação que descreve alguns requisitos e recomendações a serem observados e comunicados aos clientes. Essa documentação é duplicada com o mesmo título nos documentos públicos, incluindo alterações para se adaptar a um público diferente de leitores. Consulte <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=en#api-requirements-recommendations" format="https" scope="external"> Requisitos da API e recomendações</a> nos documentos públicos. </p> </td> 
+   <td colname="col2"> <p>Nova documentação que descreve alguns requisitos e recomendações a serem observados e comunicados aos clientes. Essa documentação é duplicada com o mesmo título nos documentos públicos, incluindo alterações para se adaptar a um público diferente de leitores. Consulte <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=pt-BR#api-requirements-recommendations" format="https" scope="external"> Requisitos da API e recomendações</a> nos documentos públicos. </p> </td> 
   </tr> 
  </tbody> 
 </table>

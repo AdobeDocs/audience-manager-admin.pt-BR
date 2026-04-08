@@ -29,7 +29,7 @@ Use a página [!UICONTROL Servers] na ferramenta de Administração do Audience 
 
    >[!NOTE]
    >
-   >Recomendamos usar [!DNL Amazon S3] como um método para obter arquivos e entregar arquivos aos parceiros. O [!DNL Amazon S3] fornece uma interface de serviços Web simples que pode ser usada para armazenar e recuperar qualquer quantidade de dados, a qualquer momento, de qualquer lugar na Web. Para obter mais informações, consulte [Sobre o Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html) no *Guia do Usuário do Audience Manager*.
+   >Recomendamos usar [!DNL Amazon S3] como um método para obter arquivos e entregar arquivos aos parceiros. O [!DNL Amazon S3] fornece uma interface de serviços Web simples que pode ser usada para armazenar e recuperar qualquer quantidade de dados, a qualquer momento, de qualquer lugar na Web. Para obter mais informações, consulte [Sobre o Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html?lang=pt-BR) no *Guia do Usuário do Audience Manager*.
 
 1. Preencha os campos:
 
