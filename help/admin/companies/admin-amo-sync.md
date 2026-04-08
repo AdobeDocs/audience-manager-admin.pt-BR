@@ -5,9 +5,12 @@ seo-title: ID Syncing with Media Optimizer
 title: Sincronização de ID com o Media Otimizer
 uuid: b741dfa7-2947-4288-b214-79eccf18d53a
 exl-id: ebd978ef-3825-4a96-94bd-5cdae269cf7c
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+TQID: https://experienceleague.adobe.com/R6xtPWC964J1atGK-R0g6J5AG83PYJosHNE3-5LvMVE
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: 222
 ht-degree: 2%
 
 ---
@@ -25,8 +28,8 @@ A tabela a seguir descreve o status de sincronização de uma fonte de dados.
 | Status | Descrição |
 |------ | -------- |
 | Desligado | Remova todas as fontes de dados de [!UICONTROL Selected Data Sources] desse contêiner para desabilitar sincronizações de ID com [!DNL AMO] |
-| Ativado (independentemente da versão do serviço de ID) | Uma fonte de dados é sincronizada com [!DNL AMO] independentemente da versão do serviço de ID quando: <ul><li>A fonte de dados aparece na lista [!UICONTROL Selected Data Sources].</li><li>A caixa de seleção [!DNL AMO] de *não está* marcada.</li></ul> |
-| Ativado (independentemente da versão do serviço de ID) | Uma fonte de dados será sincronizada com [!DNL AMO] com o serviço de ID versão 2.0 (ou posterior) quando: <ul><li>A fonte de dados aparece na lista [!UICONTROL Selected Data Sources].</li><li>A caixa de seleção [!DNL AMO]is *de* está marcada.</li></ul> |
+| Ativado (independentemente da versão do serviço de ID) | Uma fonte de dados é sincronizada com [!DNL AMO] independentemente da versão do serviço de ID quando: <ul><li>A fonte de dados aparece na lista [!UICONTROL Selected Data Sources].</li><li>A caixa de seleção *de [!DNL AMO] não está* marcada.</li></ul> |
+| Ativado (independentemente da versão do serviço de ID) | Uma fonte de dados será sincronizada com [!DNL AMO] com o serviço de ID versão 2.0 (ou posterior) quando: <ul><li>A fonte de dados aparece na lista [!UICONTROL Selected Data Sources].</li><li>A caixa de seleção *is* de [!DNL AMO] está marcada.</li></ul> |
 
 >[!MORELIKETHIS]
 >
