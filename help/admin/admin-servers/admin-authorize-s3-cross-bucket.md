@@ -5,9 +5,12 @@ seo-title: How To  Authorize Cross-Account Amazon S3 Bucket Access for Batch Des
 title: Como autorizar acesso ao bucket do Amazon S3 entre contas para destinos em lote
 uuid: da2bcbda-a765-437a-bfe9-4355383a4730
 exl-id: f3b97c31-714f-4841-884b-bc507267a932
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+TQID: https://experienceleague.adobe.com/KFc06xetyatq5n-F8Uu-6nmepyjbFyQ3nYB-vXkdPdE
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: 168
 ht-degree: 0%
 
 ---
@@ -22,7 +25,7 @@ Uma alternativa que podemos oferecer aos nossos clientes é o [!UICONTROL Cross-
 1. Selecione **[!UICONTROL S3]** na máscara suspensa **[!UICONTROL Protocol/Credentials]**.
 1. Marque a opção **[!UICONTROL Use Internal Adobe Key]**.
 1. Use a conta e o nome do bucket do seu cliente no [!DNL Amazon S3].
-1. Certifique-se de que o cliente liste a conta [!DNL Amazon S3] do `975822914085` no seu bucket [!DNL S3].
+1. Certifique-se de que o cliente liste a conta `975822914085` do [!DNL Amazon S3] no seu bucket [!DNL S3].
 
 >[!NOTE]
 >

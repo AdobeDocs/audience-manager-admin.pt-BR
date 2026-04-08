@@ -5,10 +5,14 @@ seo-title: Audience Manager Admin Home
 title: Página inicial do Administrador do Audience Manager
 uuid: 4534b622-4c8d-4c42-8019-1614faaba9d6
 exl-id: 27316802-9c98-41f5-af3e-edc11e572e29
-source-git-commit: e12731066834df18b44e6737fe8c1264d316f7fd
+TQID: https://experienceleague.adobe.com/eBF21MejF-AR-LUhqqCcd7ObZc9u-SqMbitmnFnCBao
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 83%
+source-wordcount: 223
+ht-degree: 72%
 
 ---
 
@@ -18,7 +22,7 @@ A ferramenta Administrador do Audience Manager permite adicionar e configurar em
 
 >[!IMPORTANT]
 >
-> O público-alvo deste repositório de documentação são os funcionários internos da Adobe. Se você for um cliente do Audience Manager, navegue até a [visão geral do guia do Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=pt-BR).
+> O público-alvo deste repositório de documentação são os funcionários internos da Adobe. Se você for um cliente do Audience Manager, navegue até a [visão geral do guia do Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html).
 
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
  <tbody> 
@@ -34,13 +38,13 @@ A ferramenta Administrador do Audience Manager permite adicionar e configurar em
      </ul> </p> </td> 
    <td colname="col2" valign="top"> <p class="head"><b>Notas de versão</b> </p> 
     <ul id="ul_1AA5CED5DA0F4B78B8BC4D74539E97EF"> 
-     <li id="li_1B636241BCC14468980CF415B15A875F">Consulte as <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR" format="https" scope="external">Notas de versão da Experience Cloud</a> para obter novos recursos e correções. </li> 
-     <li id="li_6AD053625237446FB9B581772896F64F">Consulte as <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR" format="https" scope="external">notas de versão anteriores</a> para ver anúncios mais antigos. </li> 
+     <li id="li_1B636241BCC14468980CF415B15A875F">Consulte as <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">Notas de versão da Experience Cloud</a> para obter novos recursos e correções. </li> 
+     <li id="li_6AD053625237446FB9B581772896F64F">Consulte as <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">notas de versão anteriores</a> para ver anúncios mais antigos. </li> 
     </ul> <p class="head"> <b>Recursos da Experience Cloud</b> </p> 
     <ul id="ul_F8DE07F1ADBC411E894751F927BB1477"> 
-     <li id="li_09B0F2E487CA4C55A723ACB5901C7B49"><a href="https://business.adobe.com/br/products/marketing-cloud/main.html" format="http" scope="external"> Adobe Experience Cloud</a> </li> 
-     <li id="li_B89CEA08B4954C6ABA2BBDA803A88427"> <a href="https://helpx.adobe.com/br/support/social.html" format="http" scope="external"> Comunidade do Adobe Social</a> </li> 
-     <li id="li_4F16686C311743C484013D84971EEBD3"> <a href="https://helpx.adobe.com/br/learning.html?promoid=KAUDK" format="https" scope="external"> Treinamento e tutoriais da Adobe</a> </li> 
+     <li id="li_09B0F2E487CA4C55A723ACB5901C7B49"><a href="https://business.adobe.com/products/marketing-cloud/main.html" format="http" scope="external"> Adobe Experience Cloud</a> </li> 
+     <li id="li_B89CEA08B4954C6ABA2BBDA803A88427"> <a href="https://helpx.adobe.com/support/social.html" format="http" scope="external"> Comunidade do Adobe Social</a> </li> 
+     <li id="li_4F16686C311743C484013D84971EEBD3"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" format="https" scope="external"> Treinamento e tutoriais da Adobe</a> </li> 
      <li id="li_32581A0A26CB4F43833D607221154188"><a href="https://www.adobe.io" format="https" scope="external"> Developer Connection</a> </li> 
      <li id="li_49B2B95B1B4540C9A967F7DDBB4EB457"><a href="https://helpx.adobe.com/pt/support/experience-cloud.html" format="https" scope="external"> Página inicial da documentação do produto</a> </li> 
     </ul> </td> 

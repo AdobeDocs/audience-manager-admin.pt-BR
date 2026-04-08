@@ -5,9 +5,14 @@ seo-title: Create a Company Profile
 title: Criar um perfil de empresa
 uuid: 55de18f8-883d-43fe-b37f-e8805bb92f7a
 exl-id: 80bb8a89-0207-4645-ac42-e73cd10561de
-source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
+TQID: https://experienceleague.adobe.com/rQozfJrXiUu5746xTtJv-trs7Tuig4PD5HlR5jsrlzw
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: 944
 ht-degree: 2%
 
 ---
@@ -43,13 +48,13 @@ Use a página [!UICONTROL Companies] na ferramenta de administração do Audienc
       * **[!UICONTROL Full AAM]**: especifique que a empresa terá uma conta completa do Adobe Audience Manager e que os usuários terão acesso de logon.
       * **[!UICONTROL MMP]**: especifique que a empresa foi habilitada para usar os recursos [!UICONTROL Master Marketing Profile] ([!UICONTROL MMP]). O [!UICONTROL MMP] permite que os públicos-alvo sejam compartilhados na Experience Cloud usando um [!UICONTROL Experience Cloud ID] ([!DNL MCID]) atribuído a cada visitante e, em seguida, usado pelo Audience Manager. Se você selecionar esse tipo de conta, o [!UICONTROL Experience Cloud ID Service] também será automaticamente selecionado.
 
-        Para obter mais informações, consulte [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=pt-BR).
+        Para obter mais informações, consulte [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=en).
 
    * **[!UICONTROL Data Source]**: especifique que a empresa é um provedor de dados de terceiros no Audience Manager.
    * **[!UICONTROL Targeting Partner]**: especifique que a empresa atua como uma plataforma de direcionamento para clientes do Audience Manager.
    * **[!UICONTROL Visitor ID Service]**: especifique que a empresa foi habilitada para usar o [!UICONTROL Experience Cloud Visitor ID Service].
 
-     O [!UICONTROL Experience Cloud Visitor ID Service] fornece uma ID de visitante universal em todas as soluções da Experience Cloud. Para obter mais informações, consulte o [guia do usuário do Serviço de ID de visitante da Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=pt-BR).
+     O [!UICONTROL Experience Cloud Visitor ID Service] fornece uma ID de visitante universal em todas as soluções da Experience Cloud. Para obter mais informações, consulte o [guia do usuário do Serviço de ID de visitante da Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en).
 
    * **[!UICONTROL Agency]**: especifique que a empresa terá uma conta [!UICONTROL Agency].
 
@@ -90,13 +95,13 @@ Edite o perfil de uma empresa, incluindo nome, descrição, subdomínio, ciclo d
       * **[!UICONTROL MMP]**: especifique que a empresa foi habilitada para usar os recursos do Perfil Mestre de Marketing ([!UICONTROL MMP]).
 
         Se você selecionar esse tipo de conta, **[!UICONTROL Visitor ID Service]** também será automaticamente selecionado.
-Para obter mais informações, consulte [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=pt-BR).
+Para obter mais informações, consulte [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=en).
 
    * **[!UICONTROL Data Source]**: especifique que a empresa é um provedor de dados de terceiros no Audience Manager.
    * **[!UICONTROL Targeting Partner]**: especifique que a empresa atua como uma plataforma de direcionamento para clientes do Audience Manager.
    * **[!UICONTROL Visitor ID Service]**: especifique que a empresa foi habilitada para usar o Serviço de ID de Visitante da Experience Cloud.
 
-     O serviço de ID de visitante da Experience Cloud fornece uma ID de visitante universal em todas as soluções da Experience Cloud. Para obter mais informações, consulte o [guia do usuário do Serviço da Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR).
+     O serviço de ID de visitante da Experience Cloud fornece uma ID de visitante universal em todas as soluções da Experience Cloud. Para obter mais informações, consulte o [guia do usuário do Serviço da Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en).
 
    * **[!UICONTROL Agency]**: especifique que a empresa terá uma conta de Agência.
    * **[!UICONTROL Features]**: Selecione as opções desejadas:

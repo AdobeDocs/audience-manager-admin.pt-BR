@@ -6,9 +6,13 @@ solution: Audience Manager
 title: Ambiente do Beta
 uuid: 6a253f4e-96e7-4395-a783-a8eb213b7daf
 exl-id: 78d5a1ff-c016-4366-ba34-9814a0d92067
-source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
+TQID: https://experienceleague.adobe.com/Y6hON41v53cSXtuTYMW8UMgimwyewWHvfcBvMYDnBa4
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: 366
 ht-degree: 2%
 
 ---
@@ -24,9 +28,9 @@ O ambiente beta é usado para testar implementações do Audience Manager. As al
 | Serviço | URL/Nome do host | Etapas para provisionar |
 |--- |--- |--- |
 | S3 | | Consulte [Provisionar buckets do Amazon S3](admin-beta-environment.md#provision-s3-buckets). |
-| DCS | https&colon;//dcs-beta.demdex.net/... | Não são necessários passos extras da nossa parte. Consulte [Acessar o DCS no Ambiente Beta](admin-beta-environment.md#access-dcs-beta-environment). |
-| Interface do usuário | https&colon;//bank-beta.demdex.com | Os dados são copiados do ambiente de produção para o ambiente beta mensalmente. As credenciais de produção são válidas para o beta. |
-| API | https&colon;//api-beta.demdex.com/... | Os dados são copiados do ambiente de produção para o ambiente beta mensalmente. As credenciais de produção são válidas para o beta. |
+| DCS | https&amp;colon;//dcs-beta.demdex.net/... | Não são necessários passos extras da nossa parte. Consulte [Acessar o DCS no Ambiente Beta](admin-beta-environment.md#access-dcs-beta-environment). |
+| Interface do usuário | https&amp;colon;//bank-beta.demdex.com | Os dados são copiados do ambiente de produção para o ambiente beta mensalmente. As credenciais de produção são válidas para o beta. |
+| API | https&amp;colon;//api-beta.demdex.com/... | Os dados são copiados do ambiente de produção para o ambiente beta mensalmente. As credenciais de produção são válidas para o beta. |
 
 ## Provisionamento de buckets do Amazon S3 {#provision-s3-buckets}
 
@@ -44,7 +48,7 @@ Para provisionar [!DNL S3] buckets para dados de entrada:
 
 >[!NOTE]
 >
->Desincentivamos o uso do [!DNL FTP/SFTP] e incentivamos o uso do [!UICONTROL Amazon S3]. Os motivos pelos quais incentivamos o uso do [!UICONTROL Amazon S3] estão listados no [Amazon S3:About](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html?lang=pt-BR).
+>Desincentivamos o uso do [!DNL FTP/SFTP] e incentivamos o uso do [!UICONTROL Amazon S3]. Os motivos pelos quais incentivamos o uso do [!UICONTROL Amazon S3] estão listados no [Amazon S3:About](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html).
 
 ## Acessar o DCS no ambiente Beta {#access-dcs-beta-environment}
 

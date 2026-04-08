@@ -5,9 +5,11 @@ seo-title: File Format Macros
 title: Macros de formato de arquivo
 uuid: f91c91b6-6581-4ed7-8d7f-f8532bd41df9
 exl-id: e686bc33-da3e-49a9-8c71-2bc6ca399bfb
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+TQID: https://experienceleague.adobe.com/ATzqYmfRIVDeQ3DZpbcZkCP4Jjsapw9Nfyli1QFR8-o
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: 686
 ht-degree: 1%
 
 ---
@@ -105,7 +107,7 @@ Macros usadas somente em linhas de dados. Para obter exemplos, consulte [Exemplo
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>CLOSE_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Insere uma chave fechada com <code>&rbrace;</code> caractere. </p> </td> 
+   <td colname="col2"> <p>Insere uma chave fechada com <code>}</code> caractere. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>COMMA</code> </p> </td> 
@@ -113,7 +115,7 @@ Macros usadas somente em linhas de dados. Para obter exemplos, consulte [Exemplo
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
-   <td colname="col2"> <p> Identificador De Usuário Exclusivo <span class="term"> Do Parceiro De Dados </span>. Retorna a ID atribuída a um visitante do usuário/site se essa ID já tiver sido sincronizada com uma ID de dispositivo do <span class="keyword"> Audience Manager </span>. </p> <p>Se a DPID for 0, essa macro retornará a ID <span class="keyword"> do Audience Manager </span> em vez da ID para o usuário. </p> </td> 
+   <td colname="col2"> <p> Identificador De Usuário Exclusivo </span> Do Parceiro De Dados <span class="term">. Retorna a ID atribuída a um visitante do usuário/site se essa ID já tiver sido sincronizada com uma ID de dispositivo do <span class="keyword"> Audience Manager </span>. </p> <p>Se a DPID for 0, essa macro retornará a ID </span> do Audience Manager <span class="keyword"> em vez da ID para o usuário. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID_LIST</code> </p> </td> 
@@ -133,11 +135,11 @@ Macros usadas somente em linhas de dados. Para obter exemplos, consulte [Exemplo
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>MCID</code> </p> </td> 
-   <td colname="col2"> <p> ID <span class="keyword"> do Adobe Experience Cloud </span>. </p> </td> 
+   <td colname="col2"> <p> ID </span> do Adobe Experience Cloud <span class="keyword">. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPEN_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Insere uma chave de abertura <code>&lbrace;</code> caractere. </p> </td> 
+   <td colname="col2"> <p>Insere uma chave de abertura <code>{</code> caractere. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPT_OUT</code> </p> </td> 

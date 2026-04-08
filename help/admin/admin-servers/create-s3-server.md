@@ -5,10 +5,12 @@ seo-title: Create or Edit an S3 Server
 title: Criar ou editar um servidor S3
 uuid: 94fee787-eb26-45aa-b602-d61ab12969ea
 exl-id: 89310de0-e24e-4d4b-8171-56faf0b441f6
-source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
+TQID: https://experienceleague.adobe.com/rtXpkVovwbjCwLk3caZ7Ii-LLcr2n3eL73OADaLoul0
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 2%
+source-wordcount: 211
+ht-degree: 1%
 
 ---
 
@@ -26,7 +28,7 @@ Use a página [!UICONTROL Servers] na ferramenta de Administração do Audience 
 
    >[!NOTE]
    >
-   >Recomendamos usar [!DNL Amazon S3] como um método para obter arquivos e entregar arquivos aos parceiros. O [!DNL Amazon S3] fornece uma interface de serviços Web simples que pode ser usada para armazenar e recuperar qualquer quantidade de dados, a qualquer momento, de qualquer lugar na Web. Para obter mais informações, consulte [Sobre o Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html?lang=pt-BR) no *Guia do Usuário do Audience Manager*.
+   >Recomendamos usar [!DNL Amazon S3] como um método para obter arquivos e entregar arquivos aos parceiros. O [!DNL Amazon S3] fornece uma interface de serviços Web simples que pode ser usada para armazenar e recuperar qualquer quantidade de dados, a qualquer momento, de qualquer lugar na Web. Para obter mais informações, consulte [Sobre o Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html) no *Guia do Usuário do Audience Manager*.
 
 1. Preencha os campos:
 

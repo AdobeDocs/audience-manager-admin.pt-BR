@@ -5,9 +5,13 @@ seo-title: Destination Setup Troubleshooting
 title: Solução de problemas de configuração de destino
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
 exl-id: 53c72b1a-f1a1-4266-a595-e4821c2640b2
-source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
+TQID: https://experienceleague.adobe.com/R21EJzuvrPlTAa3n92xgT74wdAKKKZxlJL8nWNn3mgA
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: b82b475d-1e7d-46c6-9172-1f9c73004b11id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: 1343
 ht-degree: 3%
 
 ---
@@ -70,11 +74,11 @@ Para obter mais informações sobre como configurar formatos e usar macros, cons
 
 ### Não há tempo suficiente para a geração de saída
 
-O processo de saída é executado duas vezes por dia e vários processos (saída, publicação, envio para locais externos etc.) devem ser executados antes de um arquivo ser enviado ao destino final. Uma boa regra geral é que um destino deve ser totalmente configurado pelo menos 24 horas antes de você poder esperar que os dados sejam enviados para um local externo.
+O processo de saída é executado duas vezes por dia e vários processos (saída, publicação, envio para locais externos etc.) deve ser executado antes que um arquivo seja enviado para seu destino final. Uma boa regra geral é que um destino deve ser totalmente configurado pelo menos 24 horas antes de você poder esperar que os dados sejam enviados para um local externo.
 
 ### Tamanho de Divisão de Arquivo Muito Grande
 
-Ao delimitar arquivos para destinos, você pode dividir arquivos de saída maiores em partes de arquivo. Certifique-se de que as partes individuais do arquivo não excedam 10 GB. Consulte também [Nome do Arquivo de Dados de Saída: Sintaxe e Exemplos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=pt-BR).
+Ao delimitar arquivos para destinos, você pode dividir arquivos de saída maiores em partes de arquivo. Certifique-se de que as partes individuais do arquivo não excedam 10 GB. Consulte também [Nome do Arquivo de Dados de Saída: Sintaxe e Exemplos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en).
 
 
 ## Como configurar seus destinos para exportar IDs da Experience Cloud, IDs do cliente ou IDs da Audience Manager em arquivos de dados de saída {#set-up-destinations-export}
@@ -89,7 +93,7 @@ Os destinos permitem que nossos clientes ativem seus dados em qualquer número d
 >
 >Para obter uma apresentação detalhada sobre como criar destinos na interface do Administrador, consulte o artigo [Criar ou editar destinos da empresa](companies/admin-manage-company-destinations.md#create-edit-company-destinations).
 
-Seus clientes desejam exportar tipos de ID diferentes, dependendo do destino. O gráfico de configuração abaixo mostra as opções que devem ser selecionadas para exportar informações de perfil relacionadas a diferentes tipos de ID. Recomendamos que você também consulte o [Índice de IDs no Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=pt-BR). Há três configurações importantes a serem consideradas: [!UICONTROL User ID Key], [!UICONTROL Data Source Type] e [!UICONTROL Format]. Detalhamos todos eles abaixo.
+Seus clientes desejam exportar tipos de ID diferentes, dependendo do destino. O gráfico de configuração abaixo mostra as opções que devem ser selecionadas para exportar informações de perfil relacionadas a diferentes tipos de ID. Recomendamos que você também consulte o [Índice de IDs no Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=en). Há três configurações importantes a serem consideradas: [!UICONTROL User ID Key], [!UICONTROL Data Source Type] e [!UICONTROL Format]. Detalhamos todos eles abaixo.
 
 * [!UICONTROL User ID Key]. No [!UICONTROL Admin UI], vá para **[!UICONTROL Companies]**. Pesquise a empresa do cliente e clique nela. Procure a guia **[!UICONTROL Destinations]** e pressione **[!UICONTROL Add Destination]**. No fluxo de trabalho **[!UICONTROL Add Destination]**, selecione o [!UICONTROL User ID Key]. O [!UICONTROL User ID Key] filtrará as IDs de entrada da fonte de dados de destino e permitirá que apenas as IDs passem.
 
