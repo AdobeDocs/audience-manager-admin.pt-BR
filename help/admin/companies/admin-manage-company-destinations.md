@@ -12,7 +12,7 @@ feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
 source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: 1101
+source-wordcount: 1105
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Percorra as seções para obter instruções passo a passo sobre como criar novo
 
 <!-- create-edit-company-destinations.xml -->
 
-Visite a [página de integração do parceiro Experience Cloud](https://wiki.corp.adobe.com/x/mPIMPw) antes de configurar destinos. A página contém as informações específicas que você precisa preencher para cada integração de parceiro do [!DNL Audience Manager].
+Visite a [página de integração de parceiros da Experience Cloud](https://wiki.corp.adobe.com/x/mPIMPw) antes de configurar os destinos. A página contém as informações específicas que você precisa preencher para cada integração de parceiro do [!DNL Audience Manager].
 
 Se o seu cliente quiser usar [!DNL Adobe Media Optimizer] como um destino em [!DNL Audience Manager] , você precisará configurar isso em [!DNL Adobe Media Optimizer].
 
@@ -48,13 +48,13 @@ Preencha os campos na janela **[!UICONTROL Basic Settings]**.
 * **[!UICONTROL Name]:** (Obrigatório) Especifique o nome deste destino.
 * **[!UICONTROL Description]:** Especifique as informações descritivas sobre este destino.
 * **[!UICONTROL Type]:** (obrigatório) Selecione o tipo de destino desejado:
-   * **[!UICONTROL Bulk ID]**: sincronizar IDs entre plataformas diferentes.
-   * **[!UICONTROL Bulk Trait]**: envia informações de características em massa para plataformas diferentes.
-   * **[!UICONTROL Bulk Segment]**: Enviar informações de segmento em massa para plataformas diferentes.
-   * **[!UICONTROL S2S]**: use destinos de servidor para servidor para enviar dados em lote e em tempo real para plataformas diferentes.
+  * **[!UICONTROL Bulk ID]**: sincronizar IDs entre plataformas diferentes.
+  * **[!UICONTROL Bulk Trait]**: envia informações de características em massa para plataformas diferentes.
+  * **[!UICONTROL Bulk Segment]**: Enviar informações de segmento em massa para plataformas diferentes.
+  * **[!UICONTROL S2S]**: use destinos de servidor para servidor para enviar dados em lote e em tempo real para plataformas diferentes.
 * **[!UICONTROL Auto-Fill Destination Mapping]:** (somente [!UICONTROL S2S]) Selecione uma opção:
-   * **[!UICONTROL Segment ID]:** Se você selecionar essa configuração, o mapeamento do valor de destino será preenchido com a ID do Segmento [!DNL Audience Manager].
-   * **[!UICONTROL Integration Code Value]:** Se você selecionar essa configuração, o mapeamento do valor de destino será preenchido com o código de integração do segmento [!DNL Audience Manager].
+  * **[!UICONTROL Segment ID]:** Se você selecionar essa configuração, o mapeamento do valor de destino será preenchido com a ID do Segmento [!DNL Audience Manager].
+  * **[!UICONTROL Integration Code Value]:** Se você selecionar essa configuração, o mapeamento do valor de destino será preenchido com o código de integração do segmento [!DNL Audience Manager].
 * **[!UICONTROL User ID Key]:** (Obrigatório) Selecione a chave de ID de usuário desejada para este destino na lista suspensa.
 
 Essa ID é usada como a ID da fonte de dados mestre. Isso determina as IDs de usuário a serem ultrapassadas no arquivo.
@@ -85,9 +85,9 @@ Se você estiver criando um destino [!UICONTROL S2S], preencha os campos abaixo:
 Para destinos [!UICONTROL Bulk ID], [!UICONTROL Bulk Trait] ou [!UICONTROL Bulk Segment], preencha os campos abaixo:
 
 * **[!UICONTROL Protocol]**: (Obrigatório) Selecione o protocolo desejado para este destino na lista suspensa:
-   * **[!UICONTROL FTP]**
-   * **[!UICONTROL HTTP]**
-   * **[!UICONTROL S3]**
+  * **[!UICONTROL FTP]**
+  * **[!UICONTROL HTTP]**
+  * **[!UICONTROL S3]**
 * **[!UICONTROL Servers]**: (Obrigatório) Selecione o servidor desejado para este destino na lista suspensa.
 * **[!UICONTROL Format]**: (Obrigatório) Selecione o formato desejado para este destino na lista suspensa: [!DNL HTTP] ou tipo de arquivo, dependendo do protocolo escolhido acima.
 * **[!UICONTROL Sync Type]**: (Obrigatório) Selecione o tipo de sincronização desejado para este destino. Isso indica o nível de atividades de usuário que os clientes desejariam incluir nas ordens de saída. Selecione **[!UICONTROL Customer]** se os clientes só estiverem interessados em analisar as qualificações de segmento a partir de suas propriedades. Selecione **[!UICONTROL Platform]** se eles quiserem incluir qualificações de segmento de atividades externas em todos os [!DNL Audience Manager] clientes.
