@@ -8,22 +8,22 @@ exl-id: a2e73613-07cd-4ab8-8c6e-be451ed50bfc
 TQID: https://experienceleague.adobe.com/-MWpMACN0bFPIRAWejD0-VV5nG8BGAukmV1QXxXal-E
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
 source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: 1105
+source-wordcount: '1105'
 ht-degree: 0%
-
 ---
-
 # Gerenciar destinos da empresa {#manage-company-destinations}
 
 Criar, editar e excluir destinos do Audience Manager.
 
 <!-- t_company_destinations.xml -->
 
-Para obter informações detalhadas, consulte [Destinos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=pt-BR) no *Guia do Usuário do Audience Manager*.
+Para obter informações detalhadas, consulte [Destinos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html) no *Guia do Usuário do Audience Manager*.
 
 ## Criar ou editar destinos da empresa {#create-edit-company-destinations}
 
@@ -63,7 +63,7 @@ Essa ID é usada como a ID da fonte de dados mestre. Isso determina as IDs de us
 >
 >Para o tipo de destino [!UICONTROL Bulk ID], você não pode usar o [!DNL Audience Manager] [!UICONTROL User ID] ou a ID de [!DNL Adobe Experience Cloud].
 
-Se a sua ID de fonte de dados ( [!UICONTROL DPID]) não for exibida na lista suspensa, você deverá marcar a caixa de seleção **[!UICONTROL Outbound]** no nível de fonte de dados na [página Configurações do Data Source](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=pt-BR).
+Se a sua ID de fonte de dados ( [!UICONTROL DPID]) não for exibida na lista suspensa, você deverá marcar a caixa de seleção **[!UICONTROL Outbound]** no nível de fonte de dados na [página Configurações do Data Source](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html).
 
 * **[!UICONTROL Target Data Source]:** (obrigatório) Selecione a fonte de dados desejada para este destino na lista suspensa. Essa configuração permite rotular os dados enviados, o que permite a assimilação em sistemas separados do lado do cliente.
 * **[!UICONTROL Foreign Account ID]:** Especifique a ID de conta externa para este destino. Este é o valor de identificação no sistema do recipient para esses dados limitados.
